@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/*topnav*/
+#topnav { background: url("http://img.9ask.cn/public/images/login_bg.gif") repeat-x scroll 0 0 transparent; clear: both; height: 32px; margin: 0 auto; overflow: hidden; position: relative; width: 950px; }
+#topnav ul { padding: 0 0 0 0px; }
+#topnav ul li { color: #004592; float: left; font-size: 12px; line-height: 24px; padding: 5px 0 0 5px; }
+
+/*logo*/
+#logo { height:70px; }
+.logo { width:198px; height:64px; }
+.tel { width:242px; height:42px; background:url(../images/tel.gif) no-repeat }
+#navbar { position:relative; border-bottom: #039 1px solid; border-left: #039 1px solid; padding-bottom: 0px; padding-left: 10px; width: 938px; padding-right: 0px; background: url(http://ask.9ask.cn/images/nav_back.jpg) repeat-x; height: 32px; border-top: #039 1px solid; border-right: #039 1px solid; padding-top: 6px }
+#navbar ul { }
+#navbar ul li { text-align: center; margin: 0px 5px 0px 0px; float: left; height: 25px }
+.cnav { position: relative; padding-bottom: 0px; margin: 4px 0px 0px; padding-left: 0px; width: 101px; bottom: -2px; padding-right: 0px; background: url(http://ask.9ask.cn/images/nav_c_back.jpg) no-repeat; height: 33px; padding-top: 6px }
+.cnav a:link { color: #039; font-size: 16px; font-weight: bold }
+.cnav a:visited { color: #039; font-size: 16px; font-weight: bold }
+.cnav a:active { color: #06f; font-size: 16px; font-weight: bold }
+.cnav a:hover { color: #06f; font-size: 16px; font-weight: bold }
+.nnav { padding-bottom: 0px; padding-left: 0px; width: auto; padding-right: 5px; background: url(http://ask.9ask.cn/images/lx.jpg) no-repeat right center; padding-top: 6px }
+.nnav a:link { color: #fff; font-size: 14px; font-weight: normal }
+.nnav a:visited { color: #fff; font-size: 14px; font-weight: normal }
+.nnav a:active { color: #efefef; font-size: 14px; font-weight: normal }
+.nnav a:hover { color: #efefef; font-size: 14px; font-weight: normal }
+
+/*footer*/
+#footer {
+	WIDTH: 952px; HEIGHT: 160px
+}
+.footer_1{height:85px;}
+.footer_1_head{height:18px;background:#EAF4FE;border-bottom:1px solid e5e5e5;padding:7px 0 0 10px;font-size:14px;font-weight:bold;color:#039}
+.footer_1_body{line-height:1.8em;padding:8px}
+.footer_1_body a{margin-right:6px;}
+.footer_2{padding:6px;background:#E8F3FF}
+.footer_3{padding:6px;background:#F4F9FF}
+.footer_4{padding:3px;background:#f6f6f6}
+.footer_5{padding:15px 0;text-align:center;line-height:1.8em;}

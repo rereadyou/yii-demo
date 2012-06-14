@@ -1,0 +1,887 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0058)http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Yii框架tips - 白乌鸦 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="./Yii框架tips - 白乌鸦 - 博客园_files/common.css">
+<link id="MainCss" type="text/css" rel="stylesheet" href="./Yii框架tips - 白乌鸦 - 博客园_files/style.css">
+<link type="text/css" rel="stylesheet" href="./Yii框架tips - 白乌鸦 - 博客园_files/common2.css">
+<link type="text/css" rel="stylesheet" href="./Yii框架tips - 白乌鸦 - 博客园_files/shStyle.css">
+<link type="text/css" rel="stylesheet" href="./Yii框架tips - 白乌鸦 - 博客园_files/customcss.aspx">
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/aha/rss">
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/aha/rsd.xml">
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/aha/wlwmanifest.xml"> 
+<script type="text/javascript" async="" src="./Yii框架tips - 白乌鸦 - 博客园_files/ga.js"></script><script async="" type="text/javascript" src="./Yii框架tips - 白乌鸦 - 博客园_files/gpt.js"></script><script src="./Yii框架tips - 白乌鸦 - 博客园_files/jquery.js" type="text/javascript"></script>  
+<script src="./Yii框架tips - 白乌鸦 - 博客园_files/common.js" type="text/javascript"></script>
+<script src="./Yii框架tips - 白乌鸦 - 博客园_files/jquery.json-2.2.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="./Yii框架tips - 白乌鸦 - 博客园_files/syntaxHighlighter.js"></script>
+<script async="" type="text/javascript" src="./Yii框架tips - 白乌鸦 - 博客园_files/google_ads_gpt.js"></script></head>
+<body>
+<a name="top"></a>
+<form method="post" action="./Yii框架tips - 白乌鸦 - 博客园_files/Yii框架tips - 白乌鸦 - 博客园.htm" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="">
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var currentBlogApp='aha';
+//]]>
+</script>
+
+    
+<div id="top">
+	
+<div>
+	<table class="HeaderTitles">
+		<tbody><tr>
+			<td>
+				<h1 class="HeaderTitle"><a id="Header1_HeaderTitle" class="HeaderMainTitle" href="http://www.cnblogs.com/aha/">无题</a></h1>
+				<p id="tagline">   -- 平时遇到的几个问题及解决方法</p>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+<div>
+	<table id="HeaderBar" class="HeaderBar">
+		<tbody><tr>
+			<td class="HeaderBarTab" nowrap="">
+				
+&nbsp;
+&nbsp;::
+<a id="Header1_MyLinks1_MyHomeLink" href="http://www.cnblogs.com/aha/">首页</a>&nbsp;::
+<a id="Header1_MyLinks1_ContactLink" accesskey="9" rel="nofollow" href="http://space.cnblogs.com/msg/send/%e7%99%bd%e4%b9%8c%e9%b8%a6">联系</a>&nbsp;::
+<a id="Header1_MyLinks1_Syndication" href="http://www.cnblogs.com/aha/rss">订阅</a>
+<a id="Header1_MyLinks1_XMLLink" class="XMLLink" href="http://www.cnblogs.com/aha/rss"><img src="./Yii框架tips - 白乌鸦 - 博客园_files/xml.gif" alt="订阅"></a>&nbsp;::
+<a id="Header1_MyLinks1_Admin" rel="nofollow" href="http://www.cnblogs.com/aha/admin/EditPosts.aspx">管理</a>
+
+			</td>
+			
+			<td class="HeaderBarTabBack" nowrap="" width="100%">
+				
+
+	<table class="BlogStatsBar">
+		<tbody><tr>
+			<td width="100%">
+			</td>
+			<td class="BlogStatsBar" nowrap="">
+				&nbsp;
+				16 
+				Posts&nbsp;::
+				0 Stories
+				::
+				0 Comments
+				::
+				0 Trackbacks
+			</td>
+		</tr>
+	</tbody></table>
+
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+</div>
+<table id="maintable">
+	<tbody><tr><td id="leftmenu">
+	
+		
+<h3>公告</h3>
+<div class="News">
+	<div id="profile_block">昵称：<a href="http://home.cnblogs.com/u/aha/">白乌鸦</a><br>园龄：<a href="http://home.cnblogs.com/u/aha/" title="入园时间：2005-07-15">6年5个月</a><br>粉丝：<a href="http://home.cnblogs.com/u/aha/followers/">0</a><br>关注：<a href="http://home.cnblogs.com/u/aha/followees/">0</a><div id="p_b_follow"></div><script type="text/javascript">cnblogs.UserManager.GetFollowStatus('98a0310b-63cf-dd11-9e4d-001cf0cd104b')</script></div>
+</div>
+
+		
+<script type="text/javascript">
+    var blogapp = 'aha';
+</script>
+<div class="mySearch">
+<h3 class="catListTitle">搜索</h3>
+<div id="widget_my_zzk" class="div_my_zzk"><input type="text" id="q" onkeydown="return zzk_go_enter(event);" class="input_my_zzk">&nbsp;<input onclick="zzk_go()" type="button" value="找找看" id="btnZzk" class="btn_my_zzk"></div>
+<div id="SingleColumn1_ctl00_widget_my_google" class="div_my_zzk"><input type="text" name="google_q" id="google_q" onkeydown="return google_go_enter(event)" class="input_my_zzk">&nbsp;<input onclick="google_go()" type="button" value="谷歌搜索" class="btn_my_zzk"></div>
+</div>
+
+
+<h3 class="catListTitle">常用链接</h3>
+<ul>
+
+		<li><a id="SingleColumn1_ctl01_rptMainLinks_lnkLinkItem_0" href="http://www.cnblogs.com/aha/MyPosts.html">我的随笔</a></li>
+	
+		<li><a id="SingleColumn1_ctl01_rptMainLinks_lnkLinkItem_1" href="http://www.cnblogs.com/aha/MyComments.html">我的评论</a></li>
+	
+		<li><a id="SingleColumn1_ctl01_rptMainLinks_lnkLinkItem_2" title="我发表过评论的随笔" href="http://www.cnblogs.com/aha/OtherPosts.html">我的参与</a></li>
+	
+		<li><a id="SingleColumn1_ctl01_rptMainLinks_lnkLinkItem_3" href="http://www.cnblogs.com/aha/RecentComments.html">最新评论</a></li>
+	
+		<li><a id="SingleColumn1_ctl01_rptMainLinks_lnkLinkItem_4" href="http://www.cnblogs.com/aha/tag/">我的标签</a></li>
+	
+</ul>
+<div id="itemListLin_con" style="display:none;">
+
+</div>
+<div class="mainMenuBackground">
+
+		<h3>随笔分类</h3>
+		
+				<ul>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_0_Link_0" href="http://www.cnblogs.com/aha/category/272312.html">CSS(1)</a>
+					<span style="width:10px">
+						<a id="SingleColumn1_Categories_CatList_LinkList_0_RssLink_0" href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" onclick="return open_link(&#39;http://www.cnblogs.com/aha/category/272312.html/rss&#39;);"><img src="./Yii框架tips - 白乌鸦 - 博客园_files/xmlsmall.gif" alt="rss"></a>
+					</span> 
+				</li>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_0_Link_1" href="http://www.cnblogs.com/aha/category/272311.html">jQuery(6)</a>
+					<span style="width:10px">
+						<a id="SingleColumn1_Categories_CatList_LinkList_0_RssLink_1" href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" onclick="return open_link(&#39;http://www.cnblogs.com/aha/category/272311.html/rss&#39;);"><img src="./Yii框架tips - 白乌鸦 - 博客园_files/xmlsmall.gif" alt="rss"></a>
+					</span> 
+				</li>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_0_Link_2" href="http://www.cnblogs.com/aha/category/272313.html">Other(2)</a>
+					<span style="width:10px">
+						<a id="SingleColumn1_Categories_CatList_LinkList_0_RssLink_2" href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" onclick="return open_link(&#39;http://www.cnblogs.com/aha/category/272313.html/rss&#39;);"><img src="./Yii框架tips - 白乌鸦 - 博客园_files/xmlsmall.gif" alt="rss"></a>
+					</span> 
+				</li>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_0_Link_3" href="http://www.cnblogs.com/aha/category/272310.html">PHP(2)</a>
+					<span style="width:10px">
+						<a id="SingleColumn1_Categories_CatList_LinkList_0_RssLink_3" href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" onclick="return open_link(&#39;http://www.cnblogs.com/aha/category/272310.html/rss&#39;);"><img src="./Yii框架tips - 白乌鸦 - 博客园_files/xmlsmall.gif" alt="rss"></a>
+					</span> 
+				</li>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_0_Link_4" href="http://www.cnblogs.com/aha/category/348405.html">Yii(2)</a>
+					<span style="width:10px">
+						<a id="SingleColumn1_Categories_CatList_LinkList_0_RssLink_4" href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" onclick="return open_link(&#39;http://www.cnblogs.com/aha/category/348405.html/rss&#39;);"><img src="./Yii框架tips - 白乌鸦 - 博客园_files/xmlsmall.gif" alt="rss"></a>
+					</span> 
+				</li>
+			
+				</ul>
+			
+	
+		<h3>随笔档案</h3>
+		
+				<ul>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_1_Link_0" href="http://www.cnblogs.com/aha/archive/2012/01.html">2012年1月 (4)</a>
+					<span style="width:10px">
+						
+					</span> 
+				</li>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_1_Link_1" href="http://www.cnblogs.com/aha/archive/2011/02.html">2011年2月 (1)</a>
+					<span style="width:10px">
+						
+					</span> 
+				</li>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_1_Link_2" href="http://www.cnblogs.com/aha/archive/2010/12.html">2010年12月 (6)</a>
+					<span style="width:10px">
+						
+					</span> 
+				</li>
+			
+				<li class="menuItemList">
+					<a id="SingleColumn1_Categories_CatList_LinkList_1_Link_3" href="http://www.cnblogs.com/aha/archive/2010/11.html">2010年11月 (5)</a>
+					<span style="width:10px">
+						
+					</span> 
+				</li>
+			
+				</ul>
+			
+	
+</div>
+
+<h3 class="catListTitle">最新评论</h3>
+<div class="RecentComment" id="RecentComments">
+	<div id="RecentCommentsBlock"><ul>
+</ul>
+</div>
+</div>
+
+<h3 class="catListTitle">阅读排行榜</h3>
+<div class="RecentComment" id="TopViewPosts"> 
+	<div id="TopViewPostsBlock"><ul><li><a href="http://www.cnblogs.com/aha/archive/2010/11/27/1889775.html">1. 基于jQuery的拖动排序插件(2425)</a></li><li><a href="http://www.cnblogs.com/aha/archive/2010/12/02/1894825.html">2. PHP执行zip与rar解压缩方法(347)</a></li><li><a href="http://www.cnblogs.com/aha/archive/2010/12/05/1897185.html">3. jQuery Table Plugins(188)</a></li><li><a href="http://www.cnblogs.com/aha/archive/2010/12/05/1897178.html">4. 2010年最佳jQuery插件(155)</a></li><li><a href="http://www.cnblogs.com/aha/archive/2010/11/28/1890375.html">5. PHP中array_merge和array_merge_recursive注意点(77)</a></li></ul></div>
+</div>
+
+<h3 class="catListTitle">评论排行榜</h3>
+<div class="RecentComment" id="TopCommentsPosts">
+	<div id="TopFeedbackPostsBlock"><ul><li><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317983.html">1. 开源PHP开发框架Yii全方位教程(0)</a></li><li><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317868.html">2. 关于yii的relations(0)</a></li><li><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317856.html">3. yii setFlash getFlash 用法 简单说明(0)</a></li><li><a href="./Yii框架tips - 白乌鸦 - 博客园_files/Yii框架tips - 白乌鸦 - 博客园.htm">4. Yii框架tips(0)</a></li><li><a href="http://www.cnblogs.com/aha/archive/2011/02/13/1953078.html">5. 第一屏层固定位置，滚动页面层固定在源位置(0)</a></li></ul></div>
+</div>
+<h3 class="catListTitle">推荐排行榜</h3>
+<div class="RecentComment">
+	<div id="TopDiggPostsBlock"><ul><li><a href="http://www.cnblogs.com/aha/archive/2010/11/27/1889775.html">1. 基于jQuery的拖动排序插件(1)</a></li></ul></div>
+</div>
+	
+</td><td id="main">
+	
+				
+<div class="post">
+			<div class="postTitle">
+				<a id="ctl01_TitleUrl" href="./Yii框架tips - 白乌鸦 - 博客园_files/Yii框架tips - 白乌鸦 - 博客园.htm">Yii框架tips</a>
+			</div>
+	
+	<div class="postText">
+		<div id="cnblogs_post_body"><p><strong>db组件 'schemaCachingDuration'=&gt;3600, 为什么不起做用？<br></strong>需要开缓存</p> <p><br><strong>如何在页面下边显示sql的查询时间</strong><br>在log组件的routes中加入<br></p> <div class="cnblogs_Highlighter"><div><div id="highlighter_647110" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'class'</code><code class="php plain">=&gt;</code><code class="php string">'CProfileLogRoute'</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php string">'levels'</code><code class="php plain">=&gt;</code><code class="php string">'error, warning'</code><code class="php plain">,</code></div><div class="line number4 index3 alt1"><code class="php plain">)</code></div></div></td></tr></tbody></table></div></div></div>
+<p>同时在db组件中加入<br>'enableProfiling'=&gt;true,<br>同时在这种情况下，可以用CDbConnection::getStats() 查看执行了多少个语句，用了多少时间</p>
+<p><br><strong>如何知道某一个程序段运行需要的时间</strong><br>配置好CProfileLogRoute后，在需要测试的地方加上<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_874265" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">Yii::beginProfile(</code><code class="php string">'blockID'</code><code class="php plain">);</code></div><div class="line number2 index1 alt1"><code class="php comments">//程序段</code></div><div class="line number3 index2 alt2"><code class="php plain">Yii::endProfile(</code><code class="php string">'blockID'</code><code class="php plain">);</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>'enableParamLogging'=&gt;true,的作用是？</strong><br>在日志的bind的参数后边跟数的值<br></p>
+<p><strong>如何在页面底部显示所有的db相关的日志</strong><br>同上,配置log组件的routes中加入<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_599021" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'class'</code><code class="php plain">=&gt;</code><code class="php string">'CWebLogRoute'</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php string">'levels'</code><code class="php plain">=&gt;</code><code class="php string">'trace, info, error, warning'</code><code class="php plain">,</code></div><div class="line number4 index3 alt1"><code class="php string">'categories'</code> <code class="php plain">=&gt; </code><code class="php string">'system.db.*'</code><code class="php plain">,</code></div><div class="line number5 index4 alt2"><code class="php comments">//'showInFireBug' =&gt; true, 将在firebug中显示日志</code></div><div class="line number6 index5 alt1"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p>把日志记录到数据库<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_452170" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'class'</code><code class="php plain">=&gt;</code><code class="php string">'CDbLogRoute'</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php string">'logTableName'</code><code class="php plain">=&gt;</code><code class="php string">'applog'</code><code class="php plain">,</code></div><div class="line number4 index3 alt1"><code class="php string">'connectionID'</code><code class="php plain">=&gt;</code><code class="php string">'db'</code><code class="php plain">,</code></div><div class="line number5 index4 alt2"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p>运行时表applog会自动生成，如果不能生成，参照api自已建立<br></p>
+<p><strong>如何记录$_GET,$_SESSION等信息，在以上的routes中各个配置中加上<br></strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_377604" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'filter'</code><code class="php plain">=&gt;</code><code class="php string">'CLogFilter'</code><code class="php plain">,</code></div></div></td></tr></tbody></table></div></div></div>
+<p>log配置中的level设置不对，可能会得不到日志信息<br>另外level,category的值可以随便写，<br>只要在用yii::Log("","自定义level","自定义的category")时对应起来即可<br></p>
+<p><strong>如何记录更详细的信息，能记录stack?</strong></p>
+<p>在入口文件中加上<br>define('YII_TRACE_LEVEL',10);数字越大，记当的越详细,结果如下<br>[15:31:57.226][trace][system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Bangdan` in E:\APMServ5.2.6\www\htdocs\dayouhui.com\protected\models\Bangdan.php (21)<br>in E:\APMServ5.2.6\www\htdocs\dayouhui.com\protected\components\HotBangdan.php (21) in E:\APMServ5.2.6<br>如果在调试时，终止程序运行且看到日志，不能用die及exit;<br>用application::end，即Yii::app()-&gt;end(),其会触发onEndRequest事件，日志就是在这个事件中记录的</p>
+<p><strong>如何发布一个资源文件并引用<br></strong>$css=Yii::app()-&gt;getAssetManager()-&gt;publish(dirname(__FILE__)."/aa.css");<br>yii::app()-&gt;clientScript-&gt;registerCssFIle($css);<br>如果改变activelable中默认的标题<br>重写方法attributeLabels<br></p>
+<p>过滤不良代码<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_527437" class="syntaxhighlighter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$purifier</code><code class="php plain">=</code><code class="php keyword">new</code> <code class="php plain">CHtmlPurifier;</code></div><div class="line number2 index1 alt1"><code class="php variable">$purifier</code><code class="php plain">-&gt;options=</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">"HTML.Allowed"</code><code class="php plain">=&gt;</code><code class="php string">"div"</code><code class="php plain">);</code></div><div class="line number3 index2 alt2"><code class="php variable">$content</code><code class="php plain">=</code><code class="php variable">$purifier</code><code class="php plain">-&gt;purify(</code><code class="php variable">$content</code><code class="php plain">);</code></div></div></td></tr></tbody></table></div></div></div>
+<p>或者</p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_968705" class="syntaxhighlighter nogutter  xml"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml comments">&lt;!--?php $this---&gt;</code><code class="xml plain">beginWidget('CHtmlPurifier'); ?&gt;</code></div><div class="line number2 index1 alt1"><code class="xml plain">...display user-entered content here...</code></div><div class="line number3 index2 alt2"><code class="xml comments">&lt;!--?php $this---&gt;</code><code class="xml plain">endWidget(); ?&gt;</code></div></div></td></tr></tbody></table></div></div></div><br><!--?php $this--->
+<p><br><strong>如何防止重复提交？</strong><br>提交后</p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_323968" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">Ccontroler-&gt;refresh();</code></div></div></td></tr></tbody></table></div></div></div>
+<p>&nbsp;</p>
+<p><strong>如何在成功后显示一个提示，用户刷新页时去掉提示</strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_999683" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">Cwebuser-&gt;setFlash();</code></div><div class="line number2 index1 alt1"><code class="php plain">getFlash();</code></div></div></td></tr></tbody></table></div></div></div>
+<p>&nbsp;</p>
+<p><strong>如何防止重复提交， 并在提交成功后给出提示?<br></strong>控制器中</p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_336605" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">Yii::app()-&gt;user-&gt;setFlash(</code><code class="php string">'submit'</code><code class="php plain">,</code><code class="php string">'thanks'</code><code class="php plain">);</code></div><div class="line number2 index1 alt1"><code class="php variable">$this</code><code class="php plain">-&gt;refresh();</code></div></div></td></tr></tbody></table></div></div></div>
+<p>view中</p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_93758" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">if</code><code class="php plain">(Yii::app()-&gt;user-&gt;hasFlash(</code><code class="php string">'submit'</code><code class="php plain">)){</code></div><div class="line number2 index1 alt1"><code class="php functions">echo</code> <code class="php plain">Yii::app()-&gt;user-&gt;getFlash(</code><code class="php string">'submit'</code><code class="php plain">);</code></div><div class="line number3 index2 alt2"><code class="php plain">}</code></div></div></td></tr></tbody></table></div></div></div>
+<p>一般我们是跳转到列表页，或用redirect跳到编辑页，就不需要了，如果还是要显示当前页,以上就有用了，比如在当前时显示，编辑或添加新的记录<br></p>
+<p><strong>如何分页</strong><br>itemCount总记录条数<br>CPagination代表分页信息,有多少页，每页几条记录等<br>CLinkPager生成分页的代码,自定义css可以给属性cssFile一个值<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_33645" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$criteria</code><code class="php plain">=</code><code class="php keyword">new</code> <code class="php plain">CDbCriteria();</code></div><div class="line number2 index1 alt1"><code class="php variable">$pages</code><code class="php plain">=</code><code class="php keyword">new</code> <code class="php plain">CPagination(</code><code class="php string">"数据库中的总记录数"</code><code class="php plain">);</code></div><div class="line number3 index2 alt2"><code class="php variable">$pages</code><code class="php plain">-&gt;pageSize=2;</code></div><div class="line number4 index3 alt1"><code class="php variable">$pages</code><code class="php plain">-&gt;applyLimit(</code><code class="php variable">$criteria</code><code class="php plain">);</code><code class="php comments">//给$criteria-&gt;limit offset等符值</code></div><div class="line number5 index4 alt2"><code class="php variable">$posts</code><code class="php plain">=Post::model()-&gt;findAll(</code><code class="php variable">$criteria</code><code class="php plain">);</code></div><div class="line number6 index5 alt1"><code class="php variable">$this</code><code class="php plain">-&gt;widget(</code><code class="php string">'CLinkPager'</code><code class="php plain">,</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'pages'</code><code class="php plain">=&gt;</code><code class="php variable">$pages</code><code class="php plain">));</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>列表如何排序</strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_334089" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$criteria</code><code class="php plain">=</code><code class="php keyword">new</code> <code class="php plain">CDbCriteria();</code></div><div class="line number2 index1 alt1"><code class="php variable">$sort</code> <code class="php plain">= </code><code class="php keyword">new</code> <code class="php plain">CSort(</code><code class="php string">'Post'</code><code class="php plain">);</code></div><div class="line number3 index2 alt2"><code class="php variable">$sort</code><code class="php plain">-&gt;defaultOrder=</code><code class="php string">" status asc"</code><code class="php plain">;</code></div><div class="line number4 index3 alt1"><code class="php variable">$sort</code><code class="php plain">-&gt;applyOrder(</code><code class="php variable">$criteria</code><code class="php plain">);</code></div><div class="line number5 index4 alt2"><code class="php variable">$posts</code><code class="php plain">=Post::model()-&gt;findAll(</code><code class="php variable">$criteria</code><code class="php plain">);</code></div></div></td></tr></tbody></table></div></div></div>
+<p>应用时用<br>$sort-&gt;link('字段名')<br>实际是生成一个带参数的url,然后在在applyOrder时应用这些参数修改$criteria,得到相应的查寻结果</p>
+<p><br><strong>如何生成并验证验证码:</strong><br>基本用法<br>&lt;?php $this-&gt;widget('CCaptcha'); ?&gt; 具体参数查手册<br>原理CCaptcha这个widget会在run时调用当前控制器的$captchaAction='captcha'方法,这个方法指到一个类CCaptchaAction<br>其会生成验证码图象,并记入到session中<br></p>
+<p><strong>如何显示静态页<br></strong>重写actions<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_471943" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'help'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'class'</code><code class="php plain">=&gt;</code><code class="php string">'CViewAction'</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php string">'basePath'</code><code class="php plain">=&gt;</code><code class="php string">'help'</code><code class="php plain">, </code><code class="php comments">//指定目录名</code></div><div class="line number4 index3 alt1"><code class="php string">'defaultView'</code><code class="php plain">=&gt;</code><code class="php string">'default'</code><code class="php plain">,</code></div><div class="line number5 index4 alt2"><code class="php string">'viewParam'</code><code class="php plain">=&gt;</code><code class="php string">'help'</code> <code class="php comments">//get参数</code></div><div class="line number6 index5 alt1"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p>假定当前控制器是post<br>那么可以能过/post/help/help/content访问help目录下的content.php<br>可以建立子目录比如help/reigterhelp/content.那可以通过/post/help/help/registerhelp.content来访问<br>用CViewAction的好处时，可以与其它的view共享layout</p>
+<p><br><strong>关于没有权限访问跳转的url相关</strong><br>当没有权限时调用CAccessControlFilter类中的accessDenied，其调用CwebUser中的loginRequired()，记录当前的returnurl后跳转到CWebUser配置中的loginurl，在此处登陆后,可以通过redirect跳转到returnurl(Yii::app()-&gt;request-&gt;redirect(Yii::app()-&gt;user-&gt;returnUrl);)<br>当强制显示登陆表单，比如判断用户是guest就一直列出登陆表单，不会调用loginRequired, 就得不到returnurl，这时候想跳回去，参见cookbook上相关贴子</p>
+<p><br><strong>registerCoreScript</strong><br>在framework/web/js/package.php中列出的才是</p>
+<p><br><strong>多对多关联条件</strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_304556" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$criteria</code><code class="php plain">-&gt;addInCondition(</code><code class="php string">"categorys.id"</code><code class="php plain">,</code><code class="php variable">$in</code><code class="php plain">);</code></div><div class="line number2 index1 alt1"><code class="php variable">$criteria</code><code class="php plain">-&gt;addSearchCondition(</code><code class="php string">'Shop.name'</code><code class="php plain">,</code><code class="php variable">$keyword</code><code class="php plain">);</code></div><div class="line number3 index2 alt2"><code class="php variable">$shops</code><code class="php plain">=Shop::model()-&gt;with(</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">"categorys"</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'together'</code><code class="php plain">=&gt;true)))-&gt;findAll(</code><code class="php variable">$criteria</code><code class="php plain">);</code></div></div></td></tr></tbody></table></div></div></div>
+<p>同时要在Shop模型中加入alias="categorys" ,另外together=true放在模型的关联中也可</p>
+<p><br>YII中的RBAC权限,用数据库存item，<br>在system/web/auth下找到相应的sql导放到数据库中<br>配置'authManager' =&gt; array(<br>'class' =&gt; 'CDbAuthManager',<br>'connectionID' =&gt; 'db',<br>),<br>如果在sql中导入的三个表的表名不是默认的，需要在这上边的配置中配置，具体的看api</p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_181490" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$auth</code><code class="php plain">=Yii::app()-&gt;authManager;</code></div><div class="line number2 index1 alt1"><code class="php comments">//$auth-&gt;createOperation("post",'postpost');</code></div><div class="line number3 index2 alt2"><code class="php comments">//$auth-&gt;createTask("post","posts");</code></div><div class="line number4 index3 alt1"><code class="php variable">$auth</code><code class="php plain">-&gt;createRole(</code><code class="php string">"post"</code><code class="php plain">,</code><code class="php string">"post"</code><code class="php plain">);</code></div><div class="line number5 index4 alt2"><code class="php plain">auth-&gt;assign(</code><code class="php string">"post"</code><code class="php plain">,</code><code class="php string">'demo'</code><code class="php plain">);</code></div><div class="line number6 index5 alt1"><code class="php keyword">if</code><code class="php plain">(Yii::app()-&gt;user-&gt;checkAccess(</code><code class="php string">"post"</code><code class="php plain">)){</code></div><div class="line number7 index6 alt2"><code class="php functions">echo</code> <code class="php string">"yes"</code><code class="php plain">;</code></div><div class="line number8 index7 alt1"><code class="php keyword">else</code><code class="php plain">{</code></div><div class="line number9 index8 alt2"><code class="php functions">echo</code> <code class="php string">"no"</code><code class="php plain">;</code></div><div class="line number10 index9 alt1"><code class="php plain">}</code></div></div></td></tr></tbody></table></div></div></div>
+<p>这种情况下三者是一样的</p>
+<p><br><strong>如何获得上一页的url以返回<br></strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_603055" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">Yii::app()-&gt;request-&gt;urlReferrer;</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>accessControl 是Ccontroller中内置的过滤方法，其它的还有ajaxOnly postOnly</p>
+<p><br>CMaskedTextField此组件用于限制用户的输入,对应的jquery插件<a href="http://digitalbush.com/projects/masked-input-plugin/">http://digitalbush.com/projects/masked-input-plugin/</a></p>
+<p><br>在一对多，多对多查询时,the eager loading 联合所有的表生成一条语句,如果主表有limit的查询选项，那么他将单独执行,然后再执行与关联表有关的语句，返回相关表的数据对象,这就是为什么在做大优惠时，以中间表为查询条件出错的原因,解决办法<br>with()返回 CActiveFinder对象，其方法together()，既使主表中有LIMIT/OFFSET 也是返回一条sql;</p>
+<p><br>多对多查询时，分页有时候页中显示的条数不正确，因为有重复的项，加上$criteria-&gt;group = true即可</p>
+<p><br>模型的rules中，验证某个字段不能重复,array('name', 'unique','message' =&gt; '有重复的名子'),</p>
+<p><br>CStatePersister是yii的核心组件，提供了基于文件的数据保存方式，可以不在同的请求中使用</p>
+<p><br>COutputCache 即是一个组件，又是一个filter,前者的时候用于在view中缓存内容，后者的时候用于在controller中缓存<br>就是说片段缓存，是把COutputCache当一个widget来用，页面缓存把COutputCache当作一个filter来用</p>
+<p>动态缓存，用CController的一个方法 renderDynamic($callback);</p>
+<p><br><strong>COutputCache几个属性,duration,dependency 另外还有几个，可以通称为Variation， 有什么作用呢？</strong><br>在beginCache是需要手工指定一个id，Variation的作有就是自动给生成这个id</p>
+<p><br><strong>在布署模式的时候，有错误不会有stack样的提示，会显示一个errorxxx的错误</strong></p>
+<p><br><strong>如何在程序有错的时候跳到指定的action<br></strong>在components中设置</p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_984354" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'errorHandler'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'errorAction'</code><code class="php plain">=&gt;</code><code class="php string">'site/error'</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p>在此action中可以能过Yii::app()-&gt;errorHandler-&gt;error获得错误信息</p>
+<p><br><strong>把字符串分解成数组，并去掉空值<br></strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_571346" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">preg_split(</code><code class="php string">'/\s*,\s*/'</code><code class="php plain">,</code><code class="php string">'this , is , , a test'</code><code class="php plain">,-1,PREG_SPLIT_NO_EMPTY )</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>CActiveRecord::exits();判断有没有这样的记录，一般用于添加时，判断某字段有没有重复</strong></p>
+<p><br><strong>CActiveDataProvider 一个基于ActiveRecord的数据提供源</strong><br>常用的用法<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_232934" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$dataProvider</code><code class="php plain">=</code><code class="php keyword">new</code> <code class="php plain">CActiveDataProvider(</code><code class="php string">'Post'</code><code class="php plain">, </code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'criteria'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(),</code></div><div class="line number3 index2 alt2"><code class="php string">'pagination'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(),</code></div><div class="line number4 index3 alt1"><code class="php string">'sort'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(), </code></div><div class="line number5 index4 alt2"><code class="php plain">));</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>上如'sort'=&gt;array(<br>'defaultOrder'=&gt;'status, update_time DESC',<br>),<br>ClistView同上结合使用,其中的_view中可以用一个$data的变量，代表当前的model数据<br>如果dataProvider中的pagination,sort设为false，则CliveView中对应的部分也无法使用<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_341967" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$this</code><code class="php plain">-&gt;widget(</code><code class="php string">'zii.widgets.ClistView'</code><code class="php plain">,</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'dataProvider'</code> <code class="php plain">=&gt; </code><code class="php variable">$dataprovider</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php string">'itemView'</code> <code class="php plain">=&gt; </code><code class="php string">'_view'</code><code class="php plain">,</code></div><div class="line number4 index3 alt1"><code class="php string">'template'</code> <code class="php plain">=&gt; </code><code class="php string">'{items}{sorter}{pager}'</code><code class="php plain">,</code></div><div class="line number5 index4 alt2"><code class="php string">'sortableAttributes'</code> <code class="php plain">=&gt; </code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number6 index5 alt1"><code class="php plain">),</code></div><div class="line number7 index6 alt2"><code class="php plain">));</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>CGridView的使用也结合$dataprovider,<br>用的时候主要是对columns的配置，主要有<br>CDataColumn, CLinkColumn, CButtonColumn and CCheckBoxColumn.具体用法看api<br>总的说来CgridView没有ClistView灵活</p>
+<p><br><strong>插入meta信息</strong><br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_225200" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">Yii::app()-&gt;clientScript-&gt;registerMetaTag(</code><code class="php string">'keywords'</code><code class="php plain">,</code><code class="php string">'关键字'</code><code class="php plain">);</code></div><div class="line number2 index1 alt1"><code class="php plain">Yii::app()-&gt;clientScript-&gt;registerMetaTag(</code><code class="php string">'description'</code><code class="php plain">,</code><code class="php string">'一些描述'</code><code class="php plain">);</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>CMap::mergeArray() 比array_merge更智能的合并数组，yii中配置的合并用这个</strong><br></p>
+<p>CClipWidget 通过ob_start ob_getconent生成一段不显示的内容，可以能过CController::clips访问，如<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_212774" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$this</code><code class="php plain">-&gt;beginWidget(</code><code class="php string">'CClipWidget'</code><code class="php plain">,</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'id'</code><code class="php plain">=&gt;</code><code class="php string">'name'</code><code class="php plain">,</code><code class="php string">'renderClip'</code><code class="php plain">=&gt;true));</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>可以通过$this-&gt;clips['name']来显示，其中的renderClip如果为false,则在当前位置不显示内容</p>
+<p><br><strong>获得服务器时间</strong><br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_967730" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$_SERVER</code><code class="php plain">[</code><code class="php string">'REQUEST_TIME'</code><code class="php plain">]</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>维护程序时，这样子所有的请求转发到一个地方<br></strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_43918" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'catchAllRequest'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'site/all'</code><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>&nbsp;</p>
+<p><strong>根据二级域名缓存<br></strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_31962" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'COutputCache + search'</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php string">'duration'</code> <code class="php plain">=&gt; 120,</code></div><div class="line number4 index3 alt1"><code class="php string">'varyByParam'</code> <code class="php plain">=&gt; </code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'q'</code><code class="php plain">,</code><code class="php string">'page'</code><code class="php plain">),</code></div><div class="line number5 index4 alt2"><code class="php string">'varyByExpression'</code> <code class="php plain">=&gt; </code><code class="php string">"app()-&gt;request-&gt;hostInfo"</code><code class="php plain">,</code></div><div class="line number6 index5 alt1"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>有多个分站时，同步登陆，</strong></p>
+<p>基于cookie<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_254732" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'user'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'identityCookie'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'domain'</code><code class="php plain">=&gt;</code><code class="php string">'.dayouhui.com'</code><code class="php plain">),</code></div><div class="line number3 index2 alt2"><code class="php string">'allowAutoLogin'</code> <code class="php plain">=&gt; true,</code></div><div class="line number4 index3 alt1"><code class="php plain">)</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>如果是基本于session<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_139704" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'session'</code> <code class="php plain">=&gt; </code><code class="php keyword">array</code><code class="php plain">( </code></div><div class="line number2 index1 alt1"><code class="php string">'cookieParams'</code> <code class="php plain">=&gt; </code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'domain'</code> <code class="php plain">=&gt; </code><code class="php string">'.dayouhui'</code><code class="php plain">, </code><code class="php string">'lifetime'</code> <code class="php plain">=&gt; 0),</code></div><div class="line number3 index2 alt2"><code class="php string">'timeout'</code> <code class="php plain">=&gt; 3600,</code></div><div class="line number4 index3 alt1"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>如何使用theme</strong><br>在main.php中配置<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_499097" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'theme'</code><code class="php plain">=&gt;</code><code class="php string">'classic'</code><code class="php plain">,</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>如何得到前前使用的主题</strong><br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_732675" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">Yii::app()-&gt;theme</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>得到主题名字</strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_211469" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">Yii::app()-&gt;theme-&gt;name;</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>themes文件夹和protected是同级的，其下边某个theme的目录结果同protected/views下一样</strong></p>
+<p><br><strong>关于skin</strong><br>用theme改变view的外观，skin是用来改变widgets的外观的<br>skin是健值对用于初始化一个widget的属性<br>要对widget使用skin，需要做以下几步<br>1：配置'widgetFactory'=&gt;array(<br>'enableSkin'=&gt;true,<br>),<br>2:在views下建立skins目录<br>3:在skins目录下建立与Widget名子一样的php文件,返回数组，即能用于widget的初始配置<br>4:在php文件中，如果有defautl的配置，会先找这个skin<br>5:如果应用了theme，程序会先去对应的theme目录下的skins中找配置文件<br>6:如果只是想给widget统一一个skin，建议用Customizing Widgets Globally<br></p>
+<p><strong>如果防止post跨站攻击<br></strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_741225" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'request'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'enableCsrfValidation'</code><code class="php plain">=&gt;true,</code></div><div class="line number3 index2 alt2"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>这时候生成的表单要用CHtml::form(),其会写一段代码在cookie中<br></p>
+<p><strong>防止Cookie攻击<br></strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_946439" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'request'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'enableCookieValidation'</code><code class="php plain">=&gt;true,</code></div><div class="line number3 index2 alt2"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>同时生成与得到cookie是要用 CHttpCookie<br></p>
+<p><strong>如何让表单验证不驼过的提示为中文<br></strong>在main.php的配置中加上<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_855388" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php string">'language'</code> <code class="php plain">=&gt; </code><code class="php string">'zh_CN'</code><code class="php plain">,</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>如何实现仿google的自动完成功能<br></strong></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_973482" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">&lt;!--?php </code><code class="php variable">$this</code><code class="php plain">---&gt;widget(</code><code class="php string">'CAutoComplete'</code><code class="php plain">, </code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'name'</code><code class="php plain">=&gt;</code><code class="php string">'xxx'</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php string">'url'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'suggestTags'</code><code class="php plain">),</code></div><div class="line number4 index3 alt1"><code class="php string">'multiple'</code><code class="php plain">=&gt;false,</code></div><div class="line number5 index4 alt2"><code class="php string">'htmlOptions'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'size'</code><code class="php plain">=&gt;50),</code></div><div class="line number6 index5 alt1"><code class="php plain">)); ?&gt;</code></div></div></td></tr></tbody></table></div></div></div>
+<p>然后在url指定的地址中的方法中如下输出,即可<br>echo "a\nb\nc"<br><strong></strong></p>
+<p><strong>CGridView详解</strong><br>这东西在后台比较有用，能加速开发的速度，值得一看<br>CGridView用表格的方式显示数据项<br>每一行代表一个数据项,一列通常代表数据项的一个属性<br>CGridView支持排序和分页，可以用ajax或普通的方式<br>CgridView必序和data provider一起使用<br>最简单的用法<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_72938" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$dataprovider</code> <code class="php plain">= </code><code class="php keyword">new</code> <code class="php plain">CActiveDataProvider(</code><code class="php string">'Post'</code><code class="php plain">);</code></div><div class="line number2 index1 alt1"><code class="php variable">$this</code><code class="php plain">-&gt;widget(</code><code class="php string">'zii.widgets.grid.CGridView'</code><code class="php plain">,</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number3 index2 alt2"><code class="php string">'dataProvider'</code><code class="php plain">=&gt;</code><code class="php variable">$dataprovider</code><code class="php plain">,</code></div><div class="line number4 index3 alt1"><code class="php plain">));</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>这会用表格的方式显示每一条数据项，每一列是Post的一个属性<br>在显示中带了分页和排序<br>我们可以自定义CgridView::columns属性，以自定义表格列的显示方式<br>这个cloumns如何配置呢?<br>其是一个数组，每一个数组元素对应着一列的配置，可以是字符串或数组<br>1、如果是字符串,格式是name:type:header 后两者是可选的,根据这三个值，创建一个CdatColumn实例<br>其中type参见CFormatter<br>2、如果是数组，其可以实例化CDdataColumn、ClinkColumn,CButtonColumn,CCheckBoxColumn实例，具体实例化哪个<br>由数组中的class指定，默认是CDataColumn<br>2.1,如果class=&gt;'CDataCloumn'<br>则可以指定name或者value,如果指定以value优先<br></p>
+<p><strong>用CDataColumn时如何以关联表的数据序列?<br></strong>代码如下:表示可以post关联的author中的username排序列<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_957540" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php variable">$dataprovider</code> <code class="php plain">= </code><code class="php keyword">new</code> <code class="php plain">CActiveDataProvider(</code><code class="php string">'Post'</code><code class="php plain">,</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'criteria'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number3 index2 alt2"><code class="php string">'with'</code><code class="php plain">=&gt;</code><code class="php string">'author'</code><code class="php plain">,</code></div><div class="line number4 index3 alt1"><code class="php plain">),</code></div><div class="line number5 index4 alt2"><code class="php string">'sort'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number6 index5 alt1"><code class="php string">'attributes'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number7 index6 alt2"><code class="php string">'title'</code><code class="php plain">,</code><code class="php string">'create_time'</code><code class="php plain">,</code></div><div class="line number8 index7 alt1"><code class="php string">'author_id'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'asc'</code><code class="php plain">=&gt;</code><code class="php string">'author.username asc'</code><code class="php plain">,</code><code class="php string">'desc'</code><code class="php plain">=&gt;</code><code class="php string">'author.username desc'</code><code class="php plain">，</code><code class="php string">'label'</code><code class="php plain">=&gt;</code><code class="php string">'作者'</code><code class="php plain">)</code></div><div class="line number9 index8 alt2"><code class="php plain">)</code></div><div class="line number10 index9 alt1"><code class="php plain">),</code></div><div class="line number11 index10 alt2"><code class="php plain">));</code></div><div class="line number12 index11 alt1"><code class="php variable">$this</code><code class="php plain">-&gt;widget(</code><code class="php string">'zii.widgets.grid.CGridView'</code><code class="php plain">,</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number13 index12 alt2"><code class="php string">'dataProvider'</code><code class="php plain">=&gt;</code><code class="php variable">$dataprovider</code><code class="php plain">,</code></div><div class="line number14 index13 alt1"><code class="php string">'columns'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number15 index14 alt2"><code class="php string">'title'</code><code class="php plain">,</code></div><div class="line number16 index15 alt1"><code class="php string">'create_time'</code><code class="php plain">,</code></div><div class="line number17 index16 alt2"><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'name'</code><code class="php plain">=&gt;</code><code class="php string">'author_id'</code><code class="php plain">,</code><code class="php string">'value'</code><code class="php plain">=&gt;</code><code class="php string">'$data-&gt;author-&gt;username'</code><code class="php plain">),</code></div><div class="line number18 index17 alt1"><code class="php plain">),</code></div><div class="line number19 index18 alt2"><code class="php plain">));</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>另外CDataColumn还有一个filter属性，如果是空，那么生成一个textfield，如果是数组(键值)，则生成一个dropDownlist在当前列的上部，供搜索<br>2.2:如果class=&gt;"CLinkColumn"<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_144796" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'class'</code><code class="php plain">=&gt;</code><code class="php string">'CLinkColumn'</code><code class="php plain">,</code><code class="php string">'label'</code><code class="php plain">=&gt;</code><code class="php string">'查看用户'</code><code class="php plain">,</code><code class="php string">'url'</code><code class="php plain">=&gt;Yii::app()-&gt;createURL(</code><code class="php string">'user/edit'</code><code class="php plain">))</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>则生成一个连接<br>2.3:如果class="CCheckBoxColumn"<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_305676" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'class'</code><code class="php plain">=&gt;</code><code class="php string">'CCheckBoxColumn'</code><code class="php plain">,</code><code class="php string">'name'</code><code class="php plain">=&gt;</code><code class="php string">'title'</code><code class="php plain">,</code><code class="php string">'id'</code><code class="php plain">=&gt;</code><code class="php string">'select'</code><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br><strong>可以生成一个checkbox供选择,且只能选一个</strong><br>可以配置CGridView::selectableRows 如果是0，则不能选，如果 1,只选一个如果是2或其它值，则可以选多个<br>代码如下:<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_176413" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'class'</code><code class="php plain">=&gt;</code><code class="php string">'CCheckBoxColumn'</code><code class="php plain">,</code><code class="php string">'name'</code><code class="php plain">=&gt;</code><code class="php string">'title'</code><code class="php plain">,</code><code class="php string">'id'</code><code class="php plain">=&gt;</code><code class="php string">'select'</code><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>2.3:如果class="CButtonColumn"<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_757652" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number2 index1 alt1"><code class="php string">'class'</code><code class="php plain">=&gt;</code><code class="php string">'CButtonColumn'</code><code class="php plain">,</code></div><div class="line number3 index2 alt2"><code class="php string">'updateButtonUrl'</code><code class="php plain">=&gt;</code><code class="php string">'Yii::app()-&gt;createUrl("post/edit",array("id"=&gt;$data-&gt;id));'</code><code class="php plain">,</code></div><div class="line number4 index3 alt1"><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>修改updateButtonUrl为编辑贴子</p>
+<p><br><strong>如何用gridview生成一个代搜索的管理列表</strong><br>1、在Model的rules 设定可以搜索的属性<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_464698" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">array</code><code class="php plain">(</code><code class="php string">'title, status, create_time'</code><code class="php plain">, </code><code class="php string">'safe'</code><code class="php plain">, </code><code class="php string">'on'</code><code class="php plain">=&gt;</code><code class="php string">'search'</code><code class="php plain">),</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>2、在Model中,添加搜索时的方法<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_594970" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">public</code> <code class="php keyword">function</code> <code class="php plain">search()</code></div><div class="line number2 index1 alt1"><code class="php plain">{</code></div><div class="line number3 index2 alt2"><code class="php variable">$criteria</code><code class="php plain">=</code><code class="php keyword">new</code> <code class="php plain">CDbCriteria;</code></div><div class="line number4 index3 alt1"><code class="php variable">$criteria</code><code class="php plain">-&gt;compare(</code><code class="php string">'title'</code><code class="php plain">,</code><code class="php variable">$this</code><code class="php plain">-&gt;title,true);</code></div><div class="line number5 index4 alt2"><code class="php variable">$criteria</code><code class="php plain">-&gt;compare(</code><code class="php string">'status'</code><code class="php plain">,</code><code class="php variable">$this</code><code class="php plain">-&gt;status);</code></div><div class="line number6 index5 alt1"><code class="php variable">$criteria</code><code class="php plain">-&gt;compare(</code><code class="php string">'create_time'</code><code class="php plain">,</code><code class="php variable">$this</code><code class="php plain">-&gt;create_time);</code></div><div class="line number7 index6 alt2"><code class="php keyword">return</code> <code class="php keyword">new</code> <code class="php plain">CActiveDataProvider(</code><code class="php string">'Post'</code><code class="php plain">, </code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number8 index7 alt1"><code class="php string">'criteria'</code><code class="php plain">=&gt;</code><code class="php variable">$criteria</code><code class="php plain">,</code></div><div class="line number9 index8 alt2"><code class="php string">'sort'</code><code class="php plain">=&gt;</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number10 index9 alt1"><code class="php string">'defaultOrder'</code><code class="php plain">=&gt;</code><code class="php string">'status, update_time DESC'</code><code class="php plain">,</code></div><div class="line number11 index10 alt2"><code class="php plain">),</code></div><div class="line number12 index11 alt1"><code class="php plain">));</code></div><div class="line number13 index12 alt2"><code class="php plain">}</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>3、 在Controler中,写接受搜索用到的表单的值的方法<br></p>
+<div class="cnblogs_Highlighter"><div><div id="highlighter_169963" class="syntaxhighlighter nogutter  php"><div class="toolbar"><span><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php keyword">public</code> <code class="php keyword">function</code> <code class="php plain">actionAdmin()</code></div><div class="line number2 index1 alt1"><code class="php plain">{</code></div><div class="line number3 index2 alt2"><code class="php variable">$model</code><code class="php plain">=</code><code class="php keyword">new</code> <code class="php plain">Post(</code><code class="php string">'search'</code><code class="php plain">);</code></div><div class="line number4 index3 alt1"><code class="php keyword">if</code><code class="php plain">(isset(</code><code class="php variable">$_GET</code><code class="php plain">[</code><code class="php string">'Post'</code><code class="php plain">]))</code></div><div class="line number5 index4 alt2"><code class="php variable">$model</code><code class="php plain">-&gt;attributes=</code><code class="php variable">$_GET</code><code class="php plain">[</code><code class="php string">'Post'</code><code class="php plain">];</code></div><div class="line number6 index5 alt1"><code class="php variable">$this</code><code class="php plain">-&gt;render(</code><code class="php string">'admin'</code><code class="php plain">,</code><code class="php keyword">array</code><code class="php plain">(</code></div><div class="line number7 index6 alt2"><code class="php string">'model'</code><code class="php plain">=&gt;</code><code class="php variable">$model</code><code class="php plain">,</code></div><div class="line number8 index7 alt1"><code class="php plain">));</code></div><div class="line number9 index8 alt2"><code class="php plain">}</code></div></div></td></tr></tbody></table></div></div></div>
+<p><br>4、在view中用CGridView显示<br>设置好<br>&lt;?php $this-&gt;widget('zii.widgets.grid.CGridView', array(<br>'dataProvider'=&gt;$model-&gt;search(),<br>'filter'=&gt;$model,<br>'columns'=&gt;array(<br>),<br>)); ?&gt;<br>以上代码大部分是yii自动生成的，只要做少量修改即可<br>有时候会出现，搜索后页面为空的清况，原因可能是<br>layout/main.php中<br>echo $content外层无div，就是说main.php中必须有一个div包含$content<br>//CListView详解<br>其用列表的形式显示数据，不象CGridView一样，用表格显示数据，CListView用一个 view模板来显示每一条数据<br>其支持排序与分页<br>常用的代码如下<br>&lt;?php<br>$dataProvider = new CActiveDataProvider('Post',array(<br>'pagination'=&gt;array(<br>'pageSize'=&gt;2<br>),<br>));<br>$this-&gt;widget('zii.widgets.CListView',array(<br>'dataProvider'=&gt;$dataProvider,<br>'itemView'=&gt;'_view',<br>'template'=&gt;' {summary} {items} {pager}{sorter}',<br>'sortableAttributes'=&gt;array(<br>'title',<br>'create_time'=&gt;'Post Time',<br>),<br>));</p>
+<p>&nbsp;</p>
+<p><strong>CActiveForm详解</strong><br>快速生成表单，支持ajax验证，对于比较复杂的验下最好是自己生成表单，写验证方法<br>常用代码,在Controller中<br>public function actionForm()<br>{<br>$post = new Post();<br>if(isset($_POST['ajax']) &amp;&amp; $_POST['ajax']==='post'){<br>echo CActiveForm::validate($post);<br>Yii::app()-&gt;end();<br>}<br>if(isset($_POST['Post'])){<br>$post-&gt;attributes = $_POST['Post'];<br>if($post-&gt;save()){<br>echo '存成功了';<br>}<br>}<br>$this-&gt;render('form',array('post'=&gt;$post));<br>}<br>在view中<br>&lt;?php<br>$form = $this-&gt;beginWidget('CActiveForm',array(<br>'id'=&gt;'post',//这里与Controller中的ajax对应<br>'enableAjaxValidation'=&gt;true,<br>));<br>?&gt;<br>&lt;?php echo CHtml::errorSummary($post); ?&gt;<br>&lt;?php echo $form-&gt;labelEx($post,'title');?&gt;<br>&lt;?php echo $form-&gt;textField($post,'title')?&gt;<br>&lt;?php echo $form-&gt;error($post,'title'); ?&gt; error一定要写上，要不不会触发ajax验证<br>&lt;?php echo $form-&gt;labelEx($post,'content');?&gt;<br>&lt;?php echo $form-&gt;textField($post,'content')?&gt;<br>&lt;?php echo CHtml::submitButton($post-&gt;isNewRecord ? 'Create' : 'Save'); ?&gt;<br>&lt;?php $this-&gt;endWidget(); ?&gt;<br>//CBreadcrumbs常用代码<br>&lt;?php $this-&gt;widget('zii.widgets.CBreadcrumbs', array(<br>'links'=&gt;$this-&gt;breadcrumbs,<br>'homeLink'=&gt;'&lt;span&gt;&lt;a href="http://abc.com"&gt;shouye&lt;/a&gt;&lt;/span&gt;',<br>'separator'=&gt;'&gt;&gt;&gt;'<br>)); ?&gt;<br>其中breadcrumbs中Controller中的一个属性，如果要出现导航，就要在view中给此属性附值<br>生成的html如下<br>&lt;div class="breadcrumbs"&gt;<br>&lt;span&gt;&lt;a href="http://abc.com"&gt;shouye&lt;/a&gt;<br>&lt;/span&gt;&amp;gt;&amp;gt;&amp;gt;&lt;span&gt;Managde Posts&lt;/span&gt;&amp;gt;&amp;gt;&amp;gt;<br>&lt;span&gt;b&lt;/span&gt;&amp;gt;&amp;gt;&amp;gt;&lt;span&gt;c&lt;/span&gt;&lt;/div&gt;<br>所以如果网站用到导航的时候，美工最好把导航代码定义如上<br>//CDetailView 用在仅仅是为了查看数据时，还是比较有用的,比如用在后台<br><strong></strong></p>
+<p><strong>如何在提交后显示一段提示<br></strong>在控制器中<br>if(isset($_POST['name'])){<br>Yii::app()-&gt;user-&gt;setFlash('success','you are success');<br>$this-&gt;refresh();<br>}<br>在view中<br>if (Yii::app()-&gt;user-&gt;hasFlash('success')){<br>echo 're is'.Yii::app()-&gt;user-&gt;getFlash('success');<br>}else{<br>echo 'no';<br>}</p>
+<p><br><strong>如何得到当前域名<br></strong>app()-&gt;request-&gt;hostInfo</p>
+<p><br>activeDropDownList，给出提示，并有值<br>array('empty'=&gt;array(0=&gt;'选择分组')<br>&lt;input type="submit" class="btn" value="提交" /&gt;</p>
+<p><br><strong>验证码如何生成及验证</strong><br>Controller中<br>public function actions()<br>{<br>return array(<br>'captcha'=&gt;array(<br>'class'=&gt;'CCaptchaAction',<br>'backColor'=&gt;0xFFFFFF,<br>'maxLength'=&gt;4,<br>'minLength'=&gt;4,<br>),<br>);<br>}<br>View中<br>&lt;?php echo CHtml::activeTextField($user, 'verifyCode');?&gt;<br>&lt;?php $this-&gt;widget('CCaptcha',array(<br>'captchaAction' =&gt; '/site/captcha',<br>'showRefreshButton' =&gt; false,<br>'clickableImage' =&gt; true,<br>'imageOptions' =&gt; array('align'=&gt;'top', 'title'=&gt;'重新获取'),<br>));?&gt;<br>Model中<br>array('verifyCode', 'captcha', 'captchaAction'=&gt;'site/captcha', 'message' =&gt; '输入的验证码不正确'),<br>set_time_limit(0);//禁止角本超时<br></p>
+<p><strong>如何想把手工的东西记录的数据库<br></strong>main.php中配置log<br>array(<br>'class'=&gt;'CDbLogRoute',<br>'levels'=&gt;'info',<br>'logTableName'=&gt;'Log',<br>'connectionID'=&gt;'db',<br>),<br>应用时<br>Yii::log('信息','info');<br>deleteAllByAttributes(array("phone"=&gt;$phones)直接接受一个数组，可以删除数组中符合条件的记录<br>YII_BLOG STUDY重新看了一遍yii blog，有些记录会与上边的重复<br>YII:Trace() 在debug模式是才记录信息，同时在main.php中的Log中的配置中的levels中要有trace,至于记录多少<br>栈由index.php中的YII_TRACE_LEVEL决定<br></p>
+<p><strong>配置Gii<br></strong>'modules'=&gt;array(<br>'gii'=&gt;array(<br>'class'=&gt;'system.gii.GiiModule',<br>'password'=&gt;'123',<br>),<br>),</p>
+<p><br><strong>获得客户端IP</strong><br>if($_SERVER['HTTP_CLIENT_IP']){ <br>$ip = $_SERVER['HTTP_CLIENT_IP']; <br>}elseif($_SERVER['HTTP_X_FORWARDED_FOR']){ <br>$ip = $_SERVER['HTTP_X_FORWARDED_FOR']; <br>}else{ <br>$ip = $_SERVER['REMOTE_ADDR']; <br>} </p>
+<p><br>CActiveForm还是比较强大的，建议在以后的项目中form都用这个来实现<br>layout/中的视图是可以继承的<br>&lt;?php $this-&gt;beginContent('/layouts/main'); ?&gt;<br>然后在中间出现$content即可<br>&lt;?php $this-&gt;endContent(); ?&gt;<br>create,update最好是分开放在两个action中，共用一个form,中间可以加一层view,以在头尾显示不同的东西<br>成段的完成一个功能的代码尽量拿出来放到一个方法中<br>$this-&gt;beginWidget('CMarkdown', array('purifyOutput'=&gt;true));<br>echo $data-&gt;content;<br>$this-&gt;endWidget();<br>linkButton,在删除时需要用js提示，可以看下这此组件中的comfirm<br>而且他们的提交方式都是post,是因为在jquery.yii.js写死了<br>具体的以在源文件中低部找到那段js中的ajaxsubmit，所在的js看下<br>filter是在执行action之前或之后执行的一段代码，要应用filters必须得写<br>CController::filters()方法<br>为什么在filters方法写上<br>return array(<br>'accessControl', // perform access control for CRUD operations<br>);能进行crud验证呢？<br>accessController是CContronller内置的filter，其调用<br>accessRules，得到验证规定，所以也要重写对应的accessRules，返回一个验证规则的数组成部分<br>if the application uses modules,<br>a root alias is also predefined for each module ID and refers to the base path of the corresponding module<br>如：echo YiiBase::getPathOfAlias('bbs');得到module bbs的路径<br>关于CUrlManager<br>'模式'=&gt;'route'<br>matchValue是指，对于一个url规则，正常情况下是只看参数的名子是否一样就应用规则<br>如果matchValue=true,则也要看值<br>如,规则<br>'index-/&lt;id:\d+&gt;'=&gt;array("book/index",'matchValue'=&gt;false),<br>$this-&gt;createUrl('book/index', array('id'=&gt;'abcd'));可以应用以上规则的，<br>如果规则中的matchValue=true,则就不能应用了<br>XSS又叫CSS (Cross Site Script) ，跨站脚本攻击。<br>它指的是恶意攻击者往Web页面里插入恶意html代码，当用户浏览该页之时，<br>嵌入其中Web里面的html代码会被执行<br>renderPartial()<br>render()<br>后者会把需要的js,css等嵌入<br>前者可以通过把最后一个参数设置成true完成一样的功能<br>addInCondition 不用考虑数组是空的情况yii会自动处理<br>如何得到当前url?<br>Yii::app()-&gt;request-&gt;url;<br>ctype_开始的几个函数，用于检查字任串是不是符合要求，代替了简单的正则表达式<br>CController中的setPageState可以保存同一页中的POST的表单状态<br>如何通过BEhavior修改CActiveRecord?<br>写类文件继承自<br>class LLog extends CActiveRecordBehavior{<br>public function beforeDelete($event){<br>$model = get_class($this-&gt;Owner);<br>//做要做的事，比如日志或修改模型字段内容<br>}<br>}<br>然后修改模型文件<br>public function behaviors()<br>{<br>return array(<br>// Classname =&gt; path to Class<br>'LLog'=&gt;'application.behavior.LLog',<br>);<br>}<br>如何在应用程序处理请求之前执行一段操作？<br>在main.php中配置<br>'onBeginRequest' =&gt; 'function'<br>当然这个function方法要存在<br>也可以写在放口文件index.php中，代码改成如下<br>$app = Yii::createWebApplication($config);<br>$app-&gt;onbeginRequest = 'begin';<br>$app-&gt;run();<br>function begin(){<br>echo 'yyyyydddyyyyyy';<br>}<br>为什么在CActiveRecordBehavior中用<br>beforesave就可以代表了事件onBeforeSave<br>注意基为中最上边的events方法中返回的对应关系<br>'onBeforeSave'=&gt;'beforeSave'<br>在调用attacth（CBehavior中）的时候，<br>$owner-&gt;attachEventHandler($event,array($this,$handler));<br>就指定了事件onBeforeSave的处理函数是用本类中的beforeSave<br>YII中的CComponent，CEvent与Behavior及CActiveRecordBehavior个人理解<br>这一块教程少，今天个人理解了下,写了个小例子，有助于理解<br>完成如下功能，一个JTool类，继承CComponent,当其长度改变时，调用事件，输出"change me".<br>JTool.php在protected/components 下<br>&lt;?php<br>class JTool extends CComponent{<br>private $_width;<br>public function getWidth(){<br>return $this-&gt;_width ? $this-&gt;_width : 1;<br>}<br>public function setWidth($width){<br>if($this-&gt;hasEventHandler('onChange')){<br>$this-&gt;onChange(new CEvent());<br>}<br>$this-&gt;_width = $width;<br>}<br>public function onChange($event){<br>$this-&gt;raiseEvent('onChange', $event);<br>}<br>}<br>OK，功能已经实现了,找个控制器，执行<br>$j = new JTool();<br>$j-&gt;onChange = "showChange"; //给事件绑定handle showChange<br>$j-&gt;width = 100; //调用setWidth，解发绑定的事件showChange<br>function showChange(){<br>echo 'changed me';<br>}<br>现在我们想给JTool添加一个功能，返回长度的100倍,我们可以继承JTool.php写一个方法<br>class JToolSub extends JTool{<br>public function get100width(){<br>return $this-&gt;width*100;<br>}<br>}<br>OK,功能实现了,这个执行就简单了new JToolSub调用方法即可<br>上边的这两种办法，就是仅完成功能，下边演示Behavior及events来实现<br>如何用Behavior来实现上边的增加一个方法，返回长度的100倍的功能呢？<br>写类JBe<br>JBe.php在protected/behavior 下<br>class JBe extends CBehavior{<br>public function get100width(){<br>return $this-&gt;Owner-&gt;width*100;<br>}<br>}<br>OK,功能已经实现了，找个控制器，执行<br>$j = new JTool();<br>$j-&gt;attachBehavior('JBe', 'application.behavior.JBe');<br>echo $j-&gt;get100width();<br>如何用Behavior实现JTool中的长度改变时，调用一个事件的功能呢？<br>写类JBe<br>class JBe extends CBehavior{<br>public function events(){<br>return array_merge(parent::events(),array(<br>'onChange'=&gt;'change',<br>));<br>}<br>public function change(){<br>echo 'changed';<br>}<br>public function get100width(){<br>return $this-&gt;Owner-&gt;width*100;<br>}<br>}<br>OK,功能实现随便找个控制器，执行<br>$j = new JTool();<br>$j-&gt;attachBehavior('JBe', 'application.behavior.JBe');<br>$j-&gt;width = 100;<br>这里的要点是events方法<br>返回的数组array('onChange'=&gt;'change')定义了事件(event)和对应的事件处理方法(event hander)<br>事件是是Compents(JTool中)定义的,即JTool中的onChange<br>处理方法同由Behavior(JBe中)类定义的,即JBe中的change<br>这样子再看CActiveRecordBehavior，其是绑定给CActiveRecord 这个组件的，绑定方法重写behaviors()<br>CActiveRecordBehavior中的events() 方法返回事件及事处理函数的对应，如:<br>'onBeforeSave'=&gt;'beforeSave'<br>即组件CActiveRecord中的onBeforeSave这个事件对应的处理函数是<br>CActiveRecordBehavior中的beforeSave方法<br>这样子CActiveRecord在调用save()时，触发事件onBeforeSave,调用CActiveRecordBehavior对应的处理函数beforeSave<br>我们只要写一个CActiveRecordBehavior的子类，重写其中的beforeSave，执行一些操作,然后给CActiveRecord绑定即可<br>如果你自己有个目录下有些类或文件常用，可以在main.php的最上边定义一个路径别名<br>Yii::setPathOfAlias('local','path/to/local-folder');<br>如果是多个可以在main.php中的array中加一个配置<br>'aliases'=&gt;array(<br>'local'=&gt;'path/to/local/'<br>),<br>如何得到proteced目录的物理路径？<br>YII::app()-&gt;basePath;<br>widget是发布资源<br>$url = Yii::app()-&gt;getAssetManager()-&gt;publish(Yii::getPathOfAlias('application.components.homeuserlived'));<br>cs()-&gt;registerCoreScript('jquery');<br>cs()-&gt;registerScriptFile($url.'/location.js' ,CClientScript::POS_HEAD);<br>cs()-&gt;registerScriptFile($url.'/YLChinaArea.js' ,CClientScript::POS_HEAD);<br>cs()-&gt;registerCssFile($url.'/style.css');<br>如何写application component, 即在main.php可配置<br>"my"=&gt;array('')<br>可以通过Yii::app()-&gt;my来访问？<br>继承CApplicationComponent即可，并可以自带Behavior等<br>yii中读写session的两种方法<br>$session = Yii::app()-&gt;session;<br>$session['terry'] = 30;<br>var_dump($session['key']);<br>Yii::app()-&gt;user-&gt;setState('tom', '40');<br>var_dump(Yii::app()-&gt;user-&gt;getState('key', 'default'));<br>==========================================分隔线===================================<br>soap非yii教程，意思是不用yii框架的时候要对象提供webservice的写法<br>分两种WSDL模式，和非WSDL模式，先看后者<br>这个也比较简单，服务器端<br>server.php<br>&lt;?php<br>ini_set('soap.wsdl_cache_enabled',0);<br>class Student {<br>public function getInfo($name,$age){<br>if($age == 20){<br>throw new SoapFault(-1, 'Cannot divide by zero!');<br>}<br>$xml = "&lt;root&gt;&lt;name&gt;".$name."&lt;/name&gt;";<br>$xml .= "&lt;age&gt;".$age."&lt;/age&gt;&lt;/root&gt;";<br>return $xml;<br>} <br>}<br>$soapS = new SoapServer(null,array('uri' =&gt; 'http://www.dayouhui.com'));<br>$soapS-&gt;setClass('Student');<br>$soapS-&gt;handle();<br>?&gt;<br>客户端client.php<br>&lt;?php<br>$soap = new SoapClient(null,array('location'=&gt;"http://localhost/mysoap/index.php",'uri'=&gt;'inadex.php'));<br>echo $soap-&gt;getInfo('a','b');<br>这样子即可<br>=============================================<br>yii，Componnts那快，忘了，写了个小例子回忆了下<br>是写一个可以写在main.php中的Components并绑定行为，事件<br>======================================<br>class ExtWindow extends CApplicationComponent{<br>private $title = 'title';<br>public $oldtitle;<br>public function getTitle(){<br>return $this-&gt;title ? $this-&gt;title : 'old title&lt;br /&gt;';<br>}<br>public function setTitle($title){<br>echo '=='.$this-&gt;oldtitle.'==';<br>$this-&gt;oldtitle = $this-&gt;title;<br>$this-&gt;title = $title;<br>if($this-&gt;hasEventHandler('onTitleChange')){<br>$event =new CEvent($this);<br>$this-&gt;raiseEvent('onTitleChange', $event);<br>}<br>}<br>//必须有这么个方法，其和raiseEent中的事件一样,具体看代码<br>public function onTitleChange($event){<br>}<br>}<br>===========================<br>&lt;?php<br>class Window extends CBehavior{<br>public function events(){<br>return array_merge(parent::events(),array(<br>'onTitleChange'=&gt;'titleChange',<br>));<br>}<br>public function titleChange($event){<br>echo $event-&gt;sender-&gt;title;<br>echo 'event TitleChange is handled in Behavior&lt;br /&gt;';<br>echo $this-&gt;owner-&gt;title;<br>}<br>public function titleOld(){<br>echo '&lt;br /&gt;old title is is '.$this-&gt;owner-&gt;oldtitle;<br>}<br>}<br>==============================<br>main.php中的写法<br>'ExtWin'=&gt;array(<br>'class' =&gt; 'ExtWindow',<br>'oldtitle'=&gt;'我是旧的',<br>'behaviors'=&gt;array('win'=&gt;'application..behavior.Window')<br>=============================================<br>一对多，多对多的关联时最后的参数 together说明<br>如果为false,分开查多个语句<br>如果为true,强制生成一个语句<br>如果没有设置,分页页生成多个语句，不分页时生成一个语句<br>),<br>多对多时，查询时，中间表的名子叫 (关联名_关联名)<br>with选项的作用是eager loading<br>together的作用是 要不要形成一个语句<br>当是一个sql语句是记录会有重复，这时候分页分出现相同的记录，加上group=&gt;true即可,<br>只要弄明白了，你生成的sql是一条还是多条sql就明白在多对多查询时的结果了<br>两个表不是用主键关联<br>'user' =&gt; array(self::BELONGS_TO, 'OaskUser', '','on'=&gt;'name=userName', 'select'=&gt;'TrueName'),</p></div>
+<script type="text/javascript">
+if ($ != jQuery) {
+	$ = jQuery.noConflict();
+}
+var isLogined = false;
+var cb_blogId = 12726;
+var cb_entryId = 2317836;
+var cb_blogApp = "aha";
+var cb_blogUserGuid = "98a0310b-63cf-dd11-9e4d-001cf0cd104b";
+var cb_entryCreatedDate = '2012/1/10 10:42:00';
+</script>
+<div id="blog_post_info_block">
+<div id="BlogPostCategory">分类: <a href="http://www.cnblogs.com/aha/category/348405.html">Yii</a></div>
+<div id="EntryTag"></div>
+<div id="green_channel" style="">
+绿色通道：<a href="javascript:void(0);" id="green_channel_digg" onclick="DiggIt(cb_entryId,cb_blogId,1);green_channel_success(this,&#39;谢谢推荐！&#39;);">好文要顶</a><a id="green_channel_follow" onclick="c_follow();" href="javascript:void(0);">关注我</a><a id="green_channel_favorite" onclick="AddToWz(2317836);return false;" href="javascript:void(0);">收藏该文</a><a id="green_channel_contact" href="http://space.cnblogs.com/msg/send/%e7%99%bd%e4%b9%8c%e9%b8%a6" target="_blank">与我联系</a>
+<a id="green_channel_weibo" href="javascript:void(0);" title="分享至新浪微博" onclick="ShareToTsina()"><img src="./Yii框架tips - 白乌鸦 - 博客园_files/icon_sina.gif" alt=""></a>
+</div>
+<div id="digg_block">
+<div id="author_profile">
+<div id="author_profile_info" class="author_profile_info">
+<div id="author_profile_detail" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/aha/">白乌鸦</a><br><a href="http://home.cnblogs.com/u/aha/followees">关注 - 0</a><br><a href="http://home.cnblogs.com/u/aha/followers">粉丝 - 0</a></div>
+</div>
+<div class="clear"></div>
+<div id="author_profile_honor"></div>
+<div id="author_profile_follow"><a href="javascript:void(0);" onclick="c_follow();return false;">+加关注</a></div>
+</div>
+<div id="div_digg" style="">										
+	<div class="diggit" onclick="DiggIt(cb_entryId,cb_blogId,1)"> 
+		<span class="diggnum" id="digg_count">0</span>
+	</div>
+	<div class="buryit" onclick="DiggIt(cb_entryId,cb_blogId,2)"> 
+		<span class="burynum" id="bury_count">0</span>
+	</div>
+	<div class="clear"></div>	
+	<div class="diggword" id="digg_tips">(请您对文章做出评价)</div>	
+</div>
+</div>
+<div class="clear"></div>
+<div id="post_next_prev"><a href="http://www.cnblogs.com/aha/archive/2011/02/13/1953078.html" class="p_n_p_prefix">« </a> 博主前一篇：<a href="http://www.cnblogs.com/aha/archive/2011/02/13/1953078.html" title="发布于2011-02-13 12:20">第一屏层固定位置，滚动页面层固定在源位置</a><br><a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317856.html" class="p_n_p_prefix">» </a> 博主后一篇：<a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317856.html" title="发布于2012-01-10 10:55">yii setFlash getFlash 用法 简单说明</a><br></div>
+</div>
+<script type="text/javascript">
+LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate);
+</script>
+
+
+
+
+	</div>
+	
+	<div class="postfoot">
+		posted on 2012-01-10 10:42 <a href="http://www.cnblogs.com/aha/">白乌鸦</a> 阅读(57) <a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#commentform">评论(0)</a>  <a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" onclick="open_link(&#39;http://www.cnblogs.com/aha/admin/EditPosts.aspx?postid=2317836&#39;)" rel="nofollow">编辑</a> <a href="http://www.cnblogs.com/aha/archive/2012/01/10/2317836.html#" onclick="AddToWz(2317836);return false;">收藏</a>
+	</div>
+</div>
+<img src="./Yii框架tips - 白乌鸦 - 博客园_files/2317836.html" width="1px" height="1px" alt="">
+
+
+<script type="text/javascript">
+    var commentAuthorHasChecked = false;
+    var commentAuthorIsValid = false;
+    var commentUrlIsValid = true;
+    var commentEmailIsValid = true;
+    var authenCodeHasChecked = false;
+    var authenCodeIsValid = true;
+    var hasLogined = false;
+    
+    function PostComment() {    
+        
+        var isValid = true;
+        
+        if($("#wrapAuthenCode").css("display")=="none"){
+            ShowAuthenCode();
+            $("#tip_AuthenCode").css("color","red");
+            $("#tip_AuthenCode").html("请输入验证码！");
+            isValid = false;
+        }
+        
+        if(!hasLogined && !commentAuthorHasChecked){
+            CheckAuthor();        
+        }                
+        if(!hasLogined && !commentAuthorIsValid){
+            isValid = false;
+        }
+                       
+        if(!authenCodeHasChecked){
+            CheckAuthenCode();            
+        }
+        if(!authenCodeIsValid){
+            isValid = false;
+        }
+        
+        if(!hasLogined && !commentUrlIsValid){            
+            isValid = false;
+        }        
+        if(!commentEmailIsValid){            
+            isValid = false;
+        }        
+        if(!CheckCommentContent()){
+            isValid = false;
+        }    
+        if(!isValid){
+            return;
+        }
+
+        var content = $("#tbCommentBody").val();
+        if(content.length>2000){
+            alert("评论内容过长！不允许发布！");
+            return;
+        }     
+        
+        if(content.indexOf("　Ｅ　　　　　　　　　Ｅ　　　　　　　　　　Ｅ　　　　　　")>=0){
+            alert("该内容不允许布！");
+            return;
+        }   
+        
+       if ($("#span_comment_posted").html()!='' && $("#span_comment_posted").html()==content){
+            alert("该评论已发表过!");
+            return;
+        }
+        
+        $("#tip_comment").html("评论提交中...");
+        $("#span_comment_posted").html(content);
+        //content = content.replace("'", "\\'");
+        var email = $("#tbCommentEmail").val();
+        var authenNum = $("#tbAuthenCode").val();
+        var authenId = $("#span_comment_test").html();
+        var comment = {};
+        comment.authenNum = authenNum;
+        comment.authenId= authenId;
+        comment.parentId = 0;
+        comment.blogId = 0;
+        comment.sourceUrl = '';
+        comment.author = $("#tbCommentAuthor").val();
+        comment.url = $("#tbCommentAuthorUrl").val();
+        comment.authenCode = $("#tbAuthenCode").val();
+        comment.email = email;
+        comment.title = '';
+        comment.content = content;
+        comment.parentCommentId = $("#span_parentcomment_id").html();
+        $.ajax({
+            url: '/ws/CommentService.asmx/AddAnonymousComment',
+            data: $.toJSON(comment),
+            type: "post",
+            dataType: "json",
+            contentType: "application/json; charset=utf8",
+            success: function(data) {
+               if (data.d["IsSuccess"]) {
+                    ShowCommentMsg("感谢您的回复:)");
+                    //RereshComments2(comment.parentId);
+                    $("#tbCommentBody").val('');
+                    //$("#divCommentShow").html(data.d["ReturnData"]+content.replace(/\n/g,"<br/>")+"<br/><br/>");
+                    $("#divCommentShow").html($("#divCommentShow").html()+data.d["ReturnData"]); 
+                    $("#tip_AuthenCode").html('');
+                    RefreshAuthenCode();
+                    $("#tbAuthenCode").val("");                    
+                    CommentNotify(data.d["CommentID"]);
+                }
+                else {
+                    ShowCommentMsg(data.d["ReturnData"]);//"抱歉！评论提交失败！请与管理员联系。");
+                    $("#span_comment_posted").html(''); 
+                }
+            },
+            error: function(xhr) {
+                ShowCommentMsg("抱歉！评论提交失败！请与管理员联系。");
+                $("#span_comment_posted").html('');  
+                //alert(xhr.responseText);
+            }
+        }
+        );
+    }
+    
+    function RefreshAuthenCode(){
+        AjaxPost("/ws/CommentService.asmx/RefreshAuthenCode","{}",RefreshImg); 
+        $("#lnkRereshAuthenCode").html("<span style='color:red'>刷新中...</span>");
+        return false;
+    }
+    
+    function RefreshImg(response){
+       $("#imgAuthenCode").attr("src","/Modules/CaptchaImage/ValidCodeImage.aspx?id="+encodeURIComponent(response));
+       $("#span_comment_test").html(response);
+       $("#lnkRereshAuthenCode").html("看不清，换一个");
+    }
+    
+    function ShowAuthenCode(){
+        //if($("#wrapAuthenCode").css("display")=="none"){    
+        //    AjaxPost("/ws/CommentService.asmx/RefreshAuthenCode","{}",ShowAuthenCodeOk);
+        //}
+        $("#wrapAuthenCode").show();      
+    }
+    
+    function ShowAuthenCodeOk(response){
+         UpdateAuthenCode();
+         $("#tbAuthenCode").val("");
+         $("#wrapAuthenCode").show();
+         $("#tip_AuthenCode").html('');
+    }  
+ 
+    
+    function CheckAuthor(isOnblur){
+        commentAuthorHasChecked = true;
+        var maxLength = 30;
+        if($("#tbCommentAuthor").val().length == 0){
+            $("#tip_author").html("请输入您的昵称！");
+            commentAuthorIsValid = false;
+            return false;
+        }     
+        else if($("#tbCommentAuthor").val().length > maxLength){
+            $("#tip_author").html("昵称不允许超过" + maxLength + "个字符！");
+            commentAuthorIsValid = false;
+            return false;
+        }
+        else{
+            //if(isOnblur){
+                AjaxPost("/ws/CommentService.asmx/IsAuthorExist","{author:'"+$("#tbCommentAuthor").val()+"'}" ,OnCheckAuthorExist);
+            //}
+            //else{
+            //    $("#tip_author").html("");
+            //    commentAuthorIsValid = true;
+            //}
+            return true;
+        }
+   }
+   
+    function OnCheckAuthorExist(response){        
+        if(!response){
+            $("#tip_author").html("");
+            commentAuthorIsValid = true;
+        }
+        else{
+            $("#tip_author").html("该昵称已被使用，请更换昵称");
+            commentAuthorIsValid = false;
+        }
+   }
+   
+    function CheckUrl(){
+        var maxLength = 50;
+        var url = $("#tbCommentAuthorUrl").val();
+        
+        if(url.length == 0){
+            commentUrlIsValid = true;
+            return true;
+        }
+        else if(url.length > maxLength){
+            $("#tip_url").html("主页地址不允许超过" + maxLength + "个字符！");
+            commentUrlIsValid = false;
+            return false;
+        }
+        else if(url.indexOf("http://")!=0 || url.indexOf(".") < 0){
+            $("#tip_url").html("主页地址要以“http://”开头");
+            commentUrlIsValid = false;
+            return false;
+        }
+        else{
+            $("#tip_url").html("");
+            commentUrlIsValid = true;
+            return true;
+        }
+   }
+   
+   function CheckEmail(){
+        var email = $("#tbCommentEmail").val();
+        if(email.length>0){
+            var regExp = new RegExp("\\w+@((\\w|\-)+\\.)+[a-z]{2,3}");
+            if(!regExp.test(email)){
+                $("#tip_email").html("请输入正确的邮件地址!");
+                commentEmailIsValid = false;
+            }
+            else{
+                commentEmailIsValid = true;
+                 $("#tip_email").html("");
+            }
+        }
+        else{
+            commentEmailIsValid = true;
+            $("#tip_email").html("");  
+        }
+   }
+   
+   function CheckAuthenCode(){
+        authenCodeHasChecked = true;
+        var num = $("#tbAuthenCode").val();
+        var id = $("#span_comment_test").html();
+        $("#tip_AuthenCode").css("color","red");
+        if(num.length==0){
+             authenCodeIsValid = false;
+             $("#tip_AuthenCode").html("请输入验证码！");
+             return;
+        }
+        else if(num.length!=4){
+            authenCodeIsValid = false;
+            $("#tip_AuthenCode").html("请输入四位数字！");
+             return;
+        }
+        else if(new RegExp("(\d+)").test(num)){
+            authenCodeIsValid = false;
+            $("#tip_AuthenCode").html("请输入四位数字！");
+             return;
+        }
+        else{
+            AjaxPost("/ws/CommentService.asmx/CheckAuthenCode","{number:"+num+",id:'"+id+"'}", OnCheckAuthenCode);
+        }
+   }
+   
+   function OnCheckAuthenCode(response){
+        if(response){
+            $("#tip_AuthenCode").css("color","green");
+            $("#tip_AuthenCode").html("验证码输入正确！");
+            authenCodeIsValid = true;            
+        }
+        else{
+            $("#tip_AuthenCode").css("color","red");
+            $("#tip_AuthenCode").html("验证码输错啦！");
+            RefreshAuthenCode();
+            authenCodeIsValid = false;           
+        }
+   }
+   
+   function CheckCommentContent(){
+    if($("#tbCommentBody").val().length==0){
+        alert("请输入评论内容！");
+        return false;
+    }
+    return true;
+   }
+    
+</script>
+<div id="ctl02_comment_form" class="commentform">
+
+<script type="text/javascript">
+    try {
+        SyntaxHighlighter.all();
+        isSyntaxHighlighted = true;
+    } catch (e) { }
+</script>
+
+
+<div id="ctl02_divLoginPannel">
+<div class="login_tips">注册用户登录后才能发表评论，请 <a rel="nofollow" href="http://passport.cnblogs.com/login.aspx?ReturnUrl=http%3a%2f%2fwww.cnblogs.com%2faha%2farchive%2f2012%2f01%2f10%2f2317836.html%3flogin%3d1%23commentform" class="underline">登录</a> 或 <a rel="nofollow" href="http://passport.cnblogs.com/register.aspx?ReturnUrl=http%3a%2f%2fwww.cnblogs.com%2faha%2farchive%2f2012%2f01%2f10%2f2317836.html%23Bottom2" class="underline">注册</a>，<a href="http://www.cnblogs.com/" target="_blank">返回博客园首页</a>。</div>
+</div>
+
+<div id="clear_read_link"><a href="http://archive.cnblogs.com/a/2317836/" target="_blank">简洁阅读版式</a></div>
+<script type="text/javascript">
+    $("#clear_read_link").html('<a href="http://archive.cnblogs.com/a/' + cb_entryId + '/" target="_blank">简洁阅读版式</a>')
+</script>
+<div id="site_nav_under">
+<a href="http://www.cnblogs.com/" target="_blank" title="程序员的网上家园">首页</a><a href="http://q.cnblogs.com/" target="_blank">博问</a><a href="http://home.cnblogs.com/ing/" target="_blank">闪存</a><a href="http://news.cnblogs.com/" target="_blank" title="IT新闻">新闻</a><a href="http://home.cnblogs.com/" target="_blank">园子</a><a href="http://job.cnblogs.com/" target="_blank" title="程序员招聘">招聘</a><a href="http://kb.cnblogs.com/" target="_blank">知识库</a> 
+
+</div>
+
+<div class="itnews c_ad_block">
+<b>最新IT新闻</b>:<br>
+
+          ·  <a href="http://news.cnblogs.com/n/128300/" target="_blank">陈年眼中的凡客</a><br>
+	
+          ·  <a href="http://news.cnblogs.com/n/128299/" target="_blank">微软表示调查富士康员工集体自杀威胁</a><br>
+	
+          ·  <a href="http://news.cnblogs.com/n/128297/" target="_blank">定制机与商业生态</a><br>
+	
+          ·  <a href="http://news.cnblogs.com/n/128296/" target="_blank">行货iPhone 4S评测 速度提升支持Siri</a><br>
+	
+          ·  <a href="http://news.cnblogs.com/n/128295/" target="_blank">微软官方发布推土机Windows 7“鸡血补丁”</a><br>
+	
+» <a href="http://news.cnblogs.com/" title="IT新闻" target="_blank">更多新闻...</a>
+</div>
+
+
+<div class="itnews c_ad_block" id="kb_block">
+<b>最新知识库文章</b>:<br>
+<div id="kb_recent">
+
+·  <a href="http://kb.cnblogs.com/page/121883/" target="_blank">当心那些有歧义的命名</a><br>
+
+·  <a href="http://kb.cnblogs.com/page/113051/" target="_blank">一个失败软件项目的思考</a><br>
+
+·  <a href="http://kb.cnblogs.com/page/111571/" target="_blank">JavaScript 类型总览(图)</a><br>
+
+·  <a href="http://kb.cnblogs.com/page/127995/" target="_blank">Javascript 面向对象编程</a><br>
+
+·  <a href="http://kb.cnblogs.com/page/127846/" target="_blank">持续集成之“Everything is code”</a><br>
+
+</div>
+» <a href="http://kb.cnblogs.com/" target="_blank">更多知识库文章...</a>
+</div>
+
+<script type="text/javascript">
+    var enableGoogleAd = true;
+    enableGoogleAd = $("#cnblogs_post_body").text().length > 500;
+</script>
+<script type="text/javascript">
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function () {
+        if(enableGoogleAd){
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+            '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        }
+    })();
+</script>
+
+<script type="text/javascript">
+    if (enableGoogleAd) {
+        try {
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/1090369/cnblogs_blogpost_C1', [300, 250], 'div-gpt-ad-1320933818841-0').addService(googletag.pubads());
+                googletag.defineSlot('/1090369/cnblogs_blogpost_C2', [468, 60], 'div-gpt-ad-1320933818841-1').addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });
+        } catch (e) { }
+    }
+</script>
+<div id="google_ad_c1" class="c_ad_block">
+<!-- cnblogs_blogpost_C1 -->
+<div id="div-gpt-ad-1320933818841-0" style="width:300px; height:250px;">
+<script type="text/javascript">
+    if (enableGoogleAd) {
+        try {
+            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1320933818841-0'); });
+        } catch (e) { }       
+    }
+</script>
+<iframe id="google_ads_iframe_/1090369/cnblogs_blogpost_C1_0" name="google_ads_iframe_/1090369/cnblogs_blogpost_C1_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; "></iframe><iframe id="google_ads_iframe_/1090369/cnblogs_blogpost_C1_0__hidden__" name="google_ads_iframe_/1090369/cnblogs_blogpost_C1_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; visibility: hidden; display: none; "></iframe></div>
+</div>
+<div id="google_ad_c2" class="c_ad_block">
+<!-- cnblogs_blogpost_C2 -->
+<div id="div-gpt-ad-1320933818841-1" style="width:468px; height:60px;">
+<script type="text/javascript">
+    if (enableGoogleAd) {
+        try {
+            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1320933818841-1'); });
+        } catch (e) { }
+        
+    }
+</script>
+<iframe id="google_ads_iframe_/1090369/cnblogs_blogpost_C2_0" name="google_ads_iframe_/1090369/cnblogs_blogpost_C2_0" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; "></iframe></div>
+</div>
+<div id="ad_under_comment2" class="c_ad_block" style="display: block; ">
+<a href="http://www.china-pub.com/STATIC07/1107/2011chinapub_6810_110718/2011chinapub_6810_110718.asp" target="_blank" rel="nofollow"><img src="./Yii框架tips - 白乌鸦 - 博客园_files/china-pub.jpg" alt="" style="border:0px;"></a><br>
+<a href="http://www.china-pub.com/STATIC07/1107/zh_autumntb_110725/zh_autumntb_110725.asp" target="_blank" rel="nofollow">China-pub 2011秋季教材巡展</a><br>
+<a href="http://www.china-pub.com/static07/0901/zh_jueba_090121.asp" target="_blank" rel="nofollow">China-Pub 计算机绝版图书按需印刷服务</a><br>
+</div>
+<script type="text/javascript">
+    if (enableGoogleAd) {
+        if (document.getElementById("ad_under_comment2")) {
+            $("#ad_under_comment2").show();
+        }
+    }
+    else {
+        $("#google_ad_c1").hide();
+        $("#google_ad_c2").hide();
+    }
+</script>
+
+<div id="HistoryToday" class="c_ad_block">
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    });
+</script>
+
+
+
+
+</div>
+
+
+			
+</td></tr>
+</tbody></table>
+
+<p id="footer">
+	Copyright @
+	白乌鸦<br>
+	Powered by:
+	<a href="http://scottwater.com/blog" target="_blank">.Text</a> and 
+	<a href="http://asp.net/" target="_blank">ASP.NET</a>
+	<br>
+	Theme by: <a href="http://www.dotnetmonster.com/" target="_blank">.NET Monster</a>
+</p>
+
+
+</form> 
+<script type="text/javascript">
+    if (!isSyntaxHighlighted) {
+        try {
+            SyntaxHighlighter.all();
+        } catch (e) { }
+    }
+</script>
+<script type="text/javascript" src="./Yii框架tips - 白乌鸦 - 博客园_files/ShowHidden.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-476124-1']);
+    _gaq.push(['_setDomainName', 'cnblogs.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+</body></html>

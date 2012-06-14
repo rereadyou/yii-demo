@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* css document */
+#pagebody{height:900px;background:#ECF5FF;position:relative}
+	.lt,.rt{width:5px;height:5px;position:absolute;font-size:3px}
+	.lt{left:-1px;top:-1px;background:url(../images/lt.jpg) no-repeat}
+	.rt{right:-1px;top:-1px;background:url(../images/rt.jpg) no-repeat}
+	.stepimg{width:929px;margin:0px auto;height:44px;padding-bottom:10px;padding-top:7px;background:url(../images/stepimg.gif) no-repeat 0 7px}
+	.alttext{font-size:14px;text-align:left; padding-left:26px;font-weight:bold;color:#333;padding-bottom:15px;margin:0 auto}
+#pagebody .line{position:relative;margin-bottom:20px;width:929px;height:auto;min-height:40px;_height:40px;overflow:visiable;margin-left:auto;margin-right:auto;clear:both;}
+.title{width:80px;font-size:14px;text-align:right;padding-top:5px;color:#333}
+.inp{width:590px;position:relative;margin-left:5px;color:#999;line-height:2em}
+.inp2{width:520px;position:relative;margin-left:5px;color:#999;line-height:2em;z-index:1000}
+/*选择类型*/
+.seltype{width:91px;height:30px;position:absolute;left:155px;top:0px;z-index:1100}
+/*提示信息框*/
+.messagebox{width:270px;border:1px solid #9c0;padding:5px; background:#F3FFCE;position:absolute;right:-230px;top:0;z-index:50; overflow:auto; }
+.co{width:9px;height:11px;position:absolute;left:-9px;top:9px;background:url(../images/co.gif) no-repeat; }
+.tith{padding-left:19px;padding-top:4px; margin-right:5px; padding-bottom:3px;color:#060;background:url(../images/how.gif) no-repeat 3px 9px}
+.tith2{color:#000;padding-bottom:3px;}
+.tith3{color:#666;padding-bottom:3px;line-height:1.3em}
+.dot{width:929px;height:20px;margin:0 auto;margin-bottom:15px;background:url(../images/dot.jpg) repeat-x 0 center}
+/*输入框样式*/
+.selwidth{width:130px;height:22px; font-size:14px; line-height:25px;}
+.input_1,.input_2,.input_3,.input_4{border:1px solid #999;background:url(../images/inp.gif) no-repeat;color:#666}
+.input_1{width:500px;height:19px;font-size:16px;font-family:"宋体";font-weight:bold;color:#333;padding:10px 10px 7px 10px;}
+.input_2{width:510px;height:195px;font-size:14px;padding:10px 0 7px 10px;line-height:1.5em}
+.input_3{width:133px;height:14px;font-size:12px;padding:7px 0 7px 7px;color:#930}
+.input_4{width:251px;height:14px;font-size:12px;padding:7px 0 7px 7px;}
+/*分类选择*/
+.selecttypebox{width:550px;height:auto;border:2px solid #9cf;background:#fff;padding:10px;position:absolute;left:600px;z-index:1200}
+.parentitembox{border-bottom:1px solid #9cf}
+.parentitembox span{margin-right:10px;}
+.parentitembox span a:link,.parentitembox span a:link{color:#039}
+.parentitembox span a:active,.parentitembox span a:hover{color:#f60}
+.subitembox{height:auto; display:inline}
+.subitembox span{margin-right:10px;}
+.subitembox2{height:40px; overflow:hidden;}
+.errorSummary{ width:500px; float:left; margin-left:55px; border:1px solid #9c0;padding:5px; background:#F3FFCE; margin-bottom:9px; display:inline; }
+.errorSummary p{ font-size:12px; font-weight:bold; line-height:20px;}
+.errorSummary ul li{ float:left; font-size:12px; color:#FF0000; line-height:24px;}
+.xjihet{ width:70px; height:32px; display:inline; vertical-align:middle;}

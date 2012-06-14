@@ -1,0 +1,62 @@
+/**
+ * CSS styles for CLinkPager.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @link http://www.yiiframework.com/
+ * @copyright Copyright &copy; 2008-2010 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ * @version $Id: pager.css 1678 2010-01-07 21:02:00Z qiang.xue $
+ * @since 1.0
+ */
+
+ul.yiiPager
+{
+	text-align:center;padding-top:0px;padding-bottom:0px; width:360px; padding-left:20px; float:left;
+}
+
+ul.yiiPager li
+{
+	display:block;float:left;margin-right:1px;padding:1px 1px;font-family:"arial"; width: 35px; overflow: hidden;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	background:none;border:1px solid #ccc; color: black
+}
+
+ul.yiiPager .page a
+{
+	background:none;border:1px solid #ccc; color: black
+}
+
+ul.yiiPager a:hover
+{
+	background:none;border:1px solid #ccc; color: black
+}
+
+ul.yiiPager .selected a
+{      color:#FF0000;
+	 font-style:  italic;
+	font-weight:bold;
+
+}
+
+ul.yiiPager .hidden a
+{
+    color:#333;
+}
+
+/**
+ * Hide first and last buttons by default.previous
+ */
+ul.yiiPager .first,
+ul.yiiPager .previous,
+ul.yiiPager .next,
+ul.yiiPager .last
+{
+	display:block;float:left;;margin-right:1px;padding:1px 1px;width: 47px;overflow: hidden;  font-family: 宋体;
+}
+.zdys_a{font-size:14px; line-height:25px; color:#048fff;padding-left:35px;}
+.xuxji{font-size:12px; line-height:25px; padding:10px; border-bottom:1px #CCC dashed;}
+.yii_feye{ width:350px; float:left;}

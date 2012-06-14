@@ -1,0 +1,2 @@
+//creat by£ºwww.chjia.com
+document.write('<IFRAME border=0 marginWidth=0 marginHeight=0 src="http://www.hhbmw.com/tools/ip/yj.htm?style=2&amp;p=7" frameBorder=no width=960 scrolling=no height=120></IFRAME>');

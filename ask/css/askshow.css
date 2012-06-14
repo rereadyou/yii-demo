@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+#qnav{width:740px;height:25px;margin-top:15px;padding:10px 0 0 210px;background:url(/images_1/qnback.jpg) repeat-x;position:relative}
+.pagehead{width:205px;height:35px;background:url(/images_1/pagehead.gif) no-repeat;position:absolute;left:0;bottom:0}
+.pagehead .ico{width:20px;height:19px;margin:7px 0 0 7px;float:left}
+.pagehead .text{color:#039;font-size:14px;margin:10px 0 0 5px;font-weight:bold;float:left;font-size:14px;}
+#qnav ul{width:730px;padding:8px 10px 0 210px;background:#f90}
+#qnav ul li{margin-right:7px;padding-right:7px;min-width:50px;_width:60px;background:#f60;float:left;border-right:1px solid #333}
+
+#locbox{width:948px;height:37px;}
+#locbox span{dispaly:block;float:left;width:3px;height:6px;margin:15px 10px 0 10px;font-size:1px;background:url(/images/ii.gif) no-repeat;}
+#pagebody{padding:0;clear:both;height:auto;}
+#pagebody .left{width:700px;float:left}
+.thead0{height:30px;font-size:14px;color:#039;font-weight:bold}
+.text{margin-top:5px;float:left;margin-left:5px}
+.thead0 .staback{width:44px;height:14px;float:left;font-size:12px;text-align:center;margin-top:9px; line-height:15px; margin-left:5px;background:url(/images_1/staback.jpg) no-repeat;color:#fff;}
+.thead1{width:700px;height:27px;border:none;padding-top:3px;background:url(/images_1/tround0.jpg) no-repeat; position: relative}
+.tfoot1{width:700px;height:6px;border:none;font-size:0px;background:url(/images_1/bround0.jpg) no-repeat}
+.c{width:65px;height:65px;background:url(/images_1/c.gif) no-repeat;left:0px;top:0px;_left:1px; _top:1px; z-index: 1; position:absolute}
+.thead2{height:21px;padding:5px 5px 0 5px;background:url(/images_1/thead0.jpg) repeat-x;border:1px solid #9cf}
+.cbody{border:1px solid #9cf;padding:0px;border-style:none solid}
+.cbody2{border:1px solid #9cf;padding:5px;border-top:none}
+
+/*用户好评*/
+.thead3{background:url(/images_1/goodtitle.jpg) no-repeat;height:25px;position:relative;padding-top:7px;padding-left:55px;color:#030}
+.xzz{width:28px;height:28px;background:url(/images_1/xzz.gif) no-repeat;position:absolute;left:15px;top:-1px}
+.tbody3{border:1px solid #9c0;border-style:none solid;background:#D8E99C}
+.goodbody{background:#fff;width:694px;height:auto;margin: 0 auto}
+.tfoot3{background:url(/images_1/goodfoot.jpg) no-repeat;font-size:0px;height:5px}
+/*最佳答案*/
+.thead4{background:url(/images_1/mgoodtitle.jpg) no-repeat;height:25px;position:relative;padding-top:7px;padding-left:55px;color:#900}
+.tbody4{border:1px solid #F99B9B;border-style:none solid;background:#FDD9D9}
+.mgoodbody{background:#fff;width:694px;height:auto;margin: 0 auto}
+.tfoot4{background:url(/images_1/mgoodfoot.jpg) no-repeat;font-size:0px;height:5px}
+
+/*问题区*/
+.tround,.bround{width:700px;height:4px;font-size:0px;}
+.tround{background:url(/images_1/tround.jpg) no-repeat}
+.bround{background:url(/images_1/bround.jpg) no-repeat}
+.qbox{padding:2px 3px;background:#C4E1FF url(/images_1/flo.jpg) 360px top no-repeat;border-style:none solid}
+/*ico状态*/
+.ico_a,.ico_b,.ico_c,ico_d{width:16px;height:16px;margin-top:4px;margin-left:5px;no-repeat;float:left}
+.ico_a{background:url(/images_1/ico.png)}
+.ico_b{background:url(/images_1/ico.png) 0 -16px}
+.ico_c{background:url(/images_1/ico.png) 0 -32px}
+.ico_d{background:url(/images_1/ico.png) 0 -48px}
+.qbox_w{width:678px;margin:0 auto 0px auto;background:#fff;padding:7px}
+.qinfo{border:1px dashed #e2e2e2;padding:5px;padding-left:22px;background:url(/images_1/xs.jpg) 5px 4px no-repeat}
+.q_title{font-size:15px;font-weight:bold;padding:0 15px;}
+.q_content{font-size:14px;line-height:1.6em;padding:0 15px;}
+.q_operate{margin-left:70px;margin-bottom:60px;}
+.q_fmobile{text-align:right;color:#999;background:url(/images_1/dt.jpg) repeat-x 0 top;padding-top:10px;}
+/*已解决的问题*/
+.dlistbody{width:678px;height:auto;padding:10px;overflow:hidden;}
+.dlistbody ul{padding:0;}
+.dlistbody ul li{display:block;overflow:hidden;width:315px;height:25px;float:left;background:url(/images_1/i.jpg) 3px 5px no-repeat;padding-left:15px}
+.dlistbody ul li a:link,.dlistbody ul li a:visited{font-size:14px;}
+.dlistbody ul li a:active,.dlistbody ul li a:hover{font-size:14px}
+/*推荐律师*/
+.dlistbody2{width:678px;height:auto;padding:10px}
+.dlistbody2 ul{padding-top:10px;}
+.dlistbody2 ul li{width:210px;height:22px;float:left;background:url(/images_1/i.jpg) 3px 5px no-repeat;padding-left:10px;}
+.dlistbody2 ul li a:link,.dlistbody2 ul li a:visited{font-size:12px;}
+.dlistbody2 ul li a:active,.dlistbody2 ul li a:hover{font-size:12px;}
+/*回复区*/
+.answerbody{width:698px;height:auto;padding:2px 0;overflow:hidden}
+.tbody4{border:1px solid #F99B9B;border-style:none solid;background:#fff;}
+.thead4{background:url(/images_1/mgoodtitle.jpg) no-repeat;height:25px;position:relative;padding-top:7px;padding-left:55px;color:#900}
+.tfoot4{background:url(/images_1/mgoodfoot.jpg) no-repeat;font-size:0px;height:5px}
+.answerbody ul{margin:0}
+.answerbody ul li{padding:0;height:172px;background:url(/images_1/dt.jpg) repeat-x center bottom}
+.l_photo{width:135px;height:150px;padding:10px 0;float:left;background:#F0F7FF}
+.l_photo p{margin-bottom:2px;text-align:center; line-height:18px;}
+.a_content{width:545px;height:135px;float:left}
+.c_text{min-height:105px;_height:105px;}
+.answer_op { text-align:right ;}
+
+.zirong{width:300px;height:150px;padding:10px; position:absolute; border:1px solid #ccc;background:#fff; overflow:hidden; display: none}
+.bitinr{font-size:14px; line-height:38px; font-weight:bold;}
+.shewxuy{ border-bottom:1px #ccc dashed; height:1px; margin-bottom:9px;}
+
+.useandanswer{width:300px;height:140px;padding:10px; z-index:99999; right:0;top:20px;border:1px solid #ccc;background:#fff; display: none}
+.useandanswer p{padding-bottom:4px;text-align:left; }
+.answer_op a { display:inline }
+a.a0:link,a.a0:visited{width:85px;font-size:14px;border:1px solid #ccc;padding:3px 6px}
+a.a0:active,a.a0:hover{width:85px;font-size:14px;border:1px solid #ccc;padding:3px 6px}
+.answerbox{}
+.atit{padding:20px 0 20px 20px}
+.abox{text-align:center;padding-bottom:20px}
+.answerinput{width:532px;height:115px;border:1px solid #ccc; background:url(/images_1/9ask.jpg) no-repeat center center}
+.sbutton{padding-left:80px;padding-bottom:20px;height:90px}
+#pagebody .right{width:240px;float:right}
+.rbody1{height:165px;background:url(/images_1/ttt.jpg) no-repeat 6px 10px}
+.rbody1 p{padding-left:40px;margin-bottom:8px}
+.inp1{width:171px;height:19px;border:1px solid #ccc;}
+.inp2{width:171px; height:43px;border:1px solid #ccc;}
+.kh{width:206px;height:23px;background:url(/images_1/mbanner.jpg) no-repeat}
+/**/
+.rbody2{ padding:5px; width:228px; _width:212px;}
+.rbody2 ul{}
+.rbody2 ul li{width:210px; _width:213px;  clear:both;height:25px;float:left;background:url(/images_1/i.jpg) 3px 5px no-repeat;padding-left:15px}
+.rbody2 ul li a:link,.rbody2 ul li a:visited{font-size:14px;}
+.rbody2 ul li a:active,.rbody2 ul li a:hover{font-size:14px}
+
+/**/
+/*rightlist1推荐律师*/
+.rightlist1{padding:8px; width:222px;}
+.rightlist1 ul{padding:0;}
+.rightlist1 ul li{width:73px;height:165px;float:left} 
+.rightlist1 ul li p{margin-bottom:0px;text-align:center;text-indent: 1px;}
+
+/*rightlist2积分排行榜*/
+.rightlist2{padding:0}
+.rightlist2 ul{padding:10px 0}
+.rightlist2 ul li{width:220px;height:22px;margin-bottom:0px;clear:both;}
+.nbg{width:18px;height:17px;text-align:center;font-weight:bold;color:#fff;font-family:"arial"font-size:13px;background:url(/images/nbg.jpg) no-repeat;float:left;margin-right:10px;}
+.rlt{width:120px;float:left;margin-right:10px;}
+.jfb{width:60px;float:left}
+.rightlist2_head{height:25px;padding:9px 0 0 10px;border-bottom:1px solid #ccc;}
+.rightlist2_head ul{clear:both}
+.rightlist2_head ul li{width:100px;height:21px;padding-top:3px;background:#fff;font-weight:bold;text-align:center;float:left;font-size:14px;position:relative;bottom:-1px;}
+.rover{width:100px;height:21px;color:#666;border:1px solid #ccc;border-bottom:none}
+.rnorm{width:100px;height:21px;color:#999;border:none}
+/*律师搜索*/
+.lsearch{padding:10px}
+.lsearch span{clear:both;display:block;margin-bottom:8px;}
+/*专题*/
+.specbox{line-height:2.2em;padding:10px;}
+
+/*最佳答案*/
+.thead4{background:url(/images_1/mgoodtitle.jpg) no-repeat;height:25px;position:relative;padding-top:7px;padding-left:55px;color:#900}
+/*新添加的内容*/
+.yazmn{float:left; margin-left:5px;}
+.yazhm{float:left; margin-top:15px;}
+.yazzuid{height:55px;padding-bottom:5px; padding-top:8px; padding-left:0px;}
+.zubya{float:left}
+.yazyou{float:left; width:300px;}
+.ieyazm{*margin-top:7px;}
+
+.zitiannrs{display: none; width:250px; margin:0 auto; line-height:25px; border:1px #ccc solid; text-align:center; padding-top:8px;}

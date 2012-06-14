@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* css document */
+#pagebody{height:735px;background:#ECF5FF;position:relative}
+#pagebody .left{width:433px;padding:40px 0 0 6px;}
+	.okimg{padding:10px 0;text-align:center}
+	.hotalert{width:380px;height:40px;padding:10px 15px;border:1px dashed #9cf;background:#fff;line-height:1.6em}
+	.hth{color:#F60;font-weight:bold}
+	.ipts{width:82px;height:18px;border:1px solid #ccc;}
+	.aboutitembox{padding-left:10px}
+	.aboutitembox ul li{margin-bottom:12px;padding-left:10px}
+	.at{margin-bottom:4px;}
+	.at a:link,.at a:visited{font-size:14px;color:#039;font-weight:bold;text-decoration:underline}
+	.at a:active,.at a:hover{font-size:14px;color:#039;font-weight:bold;text-decoration:underline}
+	.aw{color:#999; line-height:18px;}
+	.userreg{padding:5px 0 5px 25px;clear:both}
+	.userreg span{display:block;float:left;margin-right:5px}
+#pagebody .right{width:495px;height:735px;border:1px solid #ccc;background:#fff url(../images/btmback.jpg) repeat-x center bottom;position:absolute;top:-1px;right:-1px;}
+	
+	.lawerbox{padding-bottom:15px;border-bottom:1px solid #ccc}
+	.lawerbox ul{/*display:block;overflow:hidden;*/padding-bottom:10px;padding-left:15px;}
+	.lawerbox ul li{width:160px;height:60px;float:left;}
+	.lawerbox ul li a:link,.lawerbox ul li a:visited{font-size:12px;color:#039;font-weight:bold;text-decoration:underline}
+	.lawerbox ul li a:active,.lawerbox ul li a:hover{font-size:12px;color:#039;font-weight:bold;text-decoration:underline}
+
+	.haochu{padding:10px 0}
+	.haochu ol{padding-top:10px}
+	.haochu ol li{padding-left:10px;margin-bottom:10px;color:#999}
+/*违禁词页面*/
+#pagebody_w{height:470px;background:#ECF5FF;position:relative}
+#pagebody_w .left{width:433px;padding:40px 0 0 6px;}
+#pagebody_w .right{width:495px;height:470px;border:1px solid #ccc;background:#fff url(../images/btmback.jpg) repeat-x center bottom;position:absolute;top:-1px;right:-1px;}
+#pagebody_w .right .lawerbox{padding-bottom:15px;border-bottom:none}

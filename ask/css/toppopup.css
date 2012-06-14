@@ -1,0 +1,99 @@
+.city {
+	BORDER:#ffcc00 2px solid;
+	BACKGROUND:#fff;
+	WIDTH: 280px;
+	position:absolute;
+	top:70px;
+	padding:5px;
+        margin-left: -10px;
+}
+.city H4 {
+	font-size:12px;
+	color:#ff6600;
+	text-align:center;
+	line-height:26px;
+}
+.city .line_clear {
+	clear:both;
+	border-top:1px #A6DAF0 solid;
+	height:3px;
+	font-size:1px;
+	margin:0 auto;
+	overflow:hidden;
+	width:260px;
+	padding-bottom:5px;
+}
+.city UL LI {
+	FLOAT: left;
+	WIDTH: 40px;
+	LINE-HEIGHT: 22px;
+	LIST-STYLE-TYPE: none;
+	TEXT-ALIGN: center;
+	font-size:12px;
+}
+.city LI A {
+	COLOR: #004592
+}
+.city LI A:link {
+	COLOR: #004592;
+	TEXT-DECORATION: none
+}
+.city LI A:visited {
+	COLOR: #004592;
+	TEXT-DECORATION: none
+}
+.city LI A:hover {
+	PADDING: 2px;
+	COLOR: #fff;
+	BACKGROUND-COLOR: #004592
+}
+.city LI A:active {
+	COLOR: #004592
+}
+.city i {
+	font-style:normal;
+	text-align:left;
+	color:#004592;
+	line-height:24px;
+	padding-left:10px;
+	font-size:12px;
+}
+.city i a, .city i a:visited, .city i a:active {
+	color:#f60;
+}
+.city i a:hover {
+	padding: 2px;
+	color: #fff;
+	background-color:#f60;
+}
+.line_ddd {
+	width:260px;
+	clear:both;
+	margin:0 auto;
+	border-top:1px solid #ddd;
+	height:5px;
+	overflow:hidden;
+	font-size:1px;
+}
+.city .Eng {
+	color:#ff0000;
+	font-weight:bold;
+	line-height:22px;
+	float:left;
+	width:10px;
+	text-align:center;
+	padding:0;
+}
+.LogoSearch .Province h2 {
+	font-size:18px;
+	color:#ff0000;
+	line-height:32px;
+	text-align:center;
+}
+.LogoSearch .Province h3 {
+	font-size:12px;
+	line-height:22px;
+	color:#004592;
+	text-align:center;
+	font-weight: normal;
+}

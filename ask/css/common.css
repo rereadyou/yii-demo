@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;list-style:none}
+img{border:none}
+body{font-size:12px;font-family:"宋体"}
+a:link,a:visited{font-size:12px;color:#333;text-decoration:none}
+a:active,a:hover{font-size:12px;color:#f60;text-decoration:none}
+
+.f_l{float:left}
+.f_r{float:right}
+/*外间距*/
+.margin_top_10{margin-top:10px;}
+.margin_right_10{margin-right:10px;}
+.margin_bottom_10{margin-bottom:10px;}
+.margin_left_10{margin-left:10px}
+
+.margin_top_14{margin-top:18px;}
+.margin_right_14{margin-right:14px;}
+.margin_bottom_14{margin-bottom:14px;}
+.margin_left_14{margin-left:14px}
+
+.margin_top_7{margin-top:7px;}
+.margin_right_7{margin-right:7px;}
+.margin_right_9{margin-left:7px;}
+.margin_bottom_7{margin-bottom:7px;}
+.margin_left_7{margin-left:7px}
+/*内间距*/
+.padding_top_10{padding-top:10px;}
+.padding_right_10{padding-right:10px;}
+.padding_bottom_10{padding-bottom:10px;}
+.padding_left_10{padding-left:10px}
+.padding_10{padding:10px;}
+.padding_6{padding:6px;}
+.padding_5{padding:5px;}
+
+.padding_top_5{padding-top:5px;}
+.padding_right_5{padding-right:5px;}
+.padding_bottom_5{padding-bottom:5px;}
+.padding_left_5{padding-left:5px}
+
+/*链接*/
+a.rlink:link,a.rlink:visited{color:red;text-decoration:underline}
+a.rlink:active,a.rlink:hover{color:red;text-decoration:underline}
+
+a.e09:link,a.e09:visited{color:#f60}
+a.e09:active,a.e09:hover{color:#f60;text-decoration:underline}
+
+a.e08:link,a.e08:visited{color:#039}
+a.e08:active,a.e08:hover{color:#f60;text-decoration:underline}
+
+a.e19:link,a.e19:visited{color:#D95402}
+a.e19:active,a.e19:hover{color:#f60;text-decoration:underline}
+
+a.e10:link,a.e10:visited{font-size:14px;color:#06c}
+a.e10:active,a.e10:hover{font-size:14px;color:#f90}
+
+a.e11:link,a.e11:visited{color:#f60}
+a.e11:active,a.e11:hover{color:#f60;text-decoration:underline}
+
+a.e14:link,a.e14:visited{font-size:14px;color:#333}
+a.e14:active,a.e14:hover{font-size:14px;color:#f60;text-decoration:underline}
+
+a.e15:link,a.e15:visited{font-size:15px;color:#0050BE;font-weight:bold;}
+a.e15:active,a.e15:hover{font-size:15px;color:#f60;text-decoration:underline}
+
+a.e16:link,a.e16:visited{font-size:14px;color:#0050BE;font-weight:normal;}
+a.e16:active,a.e16:hover{font-size:14px;color:#f60;text-decoration:underline}
+
+a.b0:link,a.b0:visited{font-size:14px;color:#00449F;display:inline}
+a.b0:active,a.b0:hover{font-size:14px;color:#f60;text-decoration:underline}
+
+/*字体*/
+.ft12{font-size:12px}
+.ft14{font-size:14px;}
+.ftb{font-weight:bold}
+.ftwhite{color:#fff}
+
+/*边框*/
+.borderblue{border:1px solid #0799FC}
+.borderblue_1{border:1px solid #9cf}
+.borderdark{border:1px solid #ccc;zoom:1}
+.borderdark_1{border:1px solid #e5e5e5}
+.borderdark_2{border:1px solid #ECF1F5}
+.borderorange{border:1px solid #f60}
+.borderblue2{border:1px solid #9cf}
+.borderbottom{border-bottom:1px solid #ccc;padding-bottom:8px;}
+
+/*宽度*/
+.cwidth{width:950px;margin-left:auto;margin-right:auto}
+
+.nodisplay{display:none}
+/*颜色*/
+.grey{color:#333}
+.dred{color:#c30}
+.lightgrey{color:#666}
+.ftred{color:red}
+.lightgrey2{color:#999}
+.orange{color:#F60}
+/*文字对齐*/
+.t_left{text-align:left}
+.t_center{text-align:center}
+.t_right{text-align:right}
+/*行高*/
+.lineheight22{line-height:22px;}
+/*清除浮动*/
+.cboth{clear:both}
+/*咨询分站登录部分*/
+/*color*/
+.lightgrey{color:#666}
+/*登录*/
+.Login {
+	width:950px;
+	position:relative;
+	clear:both;
+	margin:0 auto;
+	overflow:hidden;
+	background:url(http://www.9ask.cn/index_styleImg/bg.gif) repeat-x;
+	height:32px;
+}
+.Login ul {
+	padding:0 0 0 10px;
+}
+.Login ul li {
+	float:left;
+	padding:5px 0 0 5px;
+	font-size:12px;
+	line-height:24px;
+	color:#004592;
+}
+.Login span {
+	position:absolute;
+	right:10px;
+	line-height:32px;
+	font-size:12px;
+}
+.Login .S1 {
+	width:48px;
+	float:left;
+	margin:0 0 0 5px;
+	text-align:center;
+}
+.Login .S2 {
+	width:78px;
+	float:left;
+	text-align:center;
+	text-decoration:underline;
+	color:#f60;
+}
+.Login .S2 a {
+	color:#f60;
+	text-decoration:underline;
+}
+.Login .S2 a:visited {
+	color:#f60;
+	text-decoration:underline;
+}
+.Login .S2 a:hover {
+	color:#f60;
+	text-decoration:underline;
+}

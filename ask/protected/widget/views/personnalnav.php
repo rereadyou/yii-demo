@@ -1,0 +1,2 @@
+ 
+<div class="place">您的位置：<a href="http://www.9ask.cn">中顾法律网</a> > <a href='/<?php echo $this->py_pname;?>' target="_blank"> <?php echo $this->pname;?>律师</a> >  <a href='/<?php echo $this->py_cname;?>' target="_blank"> <?php echo $this->cname;?>律师</a> >  <a href='#'><?php echo $this->lslink; ?></a></div>

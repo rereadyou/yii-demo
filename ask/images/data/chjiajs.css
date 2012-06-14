@@ -1,0 +1,38 @@
+body {
+	font-size: 9pt;
+	margin: 0px;
+	padding: 0px;text-align:center;
+}
+form{margin: 0px;padding: 0px;}
+.main {width:760px;text-align:left;margin:0px auto;padding:0;clear:both;}
+.fenlei{padding:6px;background:#DDDDDD;}
+.logo{float:left;font-size: 28px;font-weight:bold;line-height:100%;padding:8px;}
+.search_right{float:right;padding:6px;}
+.clear{clear:both;height:0;font-size:1px;overflow:hidden;}
+.fenye{padding:6px 0 2px 0;background:#999;margin:5px 0 2px 0;text-align:right;}
+.item{background:#FFF;border: 1px solid #999999;}
+.foot {padding:8px;margin:8px 0 2px 0;clear:both;border-top: 1px solid #999999;}
+
+.input1 {
+	background-color: f1f1f1;
+	border: 1px solid #999999;
+	height: 15pt;
+}
+.input2 {
+	background-color: f1f1f1;
+	border: 1px solid #999999;
+}
+td {
+	font-size: 9pt;
+	line-height: 13pt;
+	color: #333333;
+}
+a {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #990000;
+	text-decoration: none;
+}

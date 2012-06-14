@@ -1,0 +1,53 @@
+760-iframe|chjia_com|纯HTML|chjia_com|<IFRAME border=0 marginWidth=0 marginHeight=0 src="http://www.hhbmw.com/tools/ip/yj.htm?style=2&amp;p=7" frameBorder=no width=960 scrolling=no height=120></IFRAME>|chjia_com|纯HTML广告（iframe）调用。|chjia_com|X|chjia_com|1|www_chjia_com|760-js|chjia_com|脚本式|chjia_com|alimama_pid='mm_10024112_0_0';
+alimama_type='g';
+alimama_tks={};
+alimama_tks.style_i=1;
+alimama_tks.lg_i=1;
+alimama_tks.w_i=760;
+alimama_tks.h_i=69;
+alimama_tks.btn_i=1;
+alimama_tks.txt_s='';
+alimama_tks.hot_i=1;
+alimama_tks.hc_c='#999999';
+alimama_tks.c_i=1;
+alimama_tks.cid_i=0;
+
+document.write("<script type='text/javascript' src='http://a.alimama.cn/inf.js'></script>");|chjia_com|JS脚本式调用阿里妈妈的广告。|chjia_com|X|chjia_com|1|www_chjia_com|daohang|chjia_com|纯HTML|chjia_com|<style>body{margin:0 auto;font-size:12px;font-family:Arial, Helvetica, sans-serif;color:#333;padding:0;height:100%;}
+div,p,img,ul,li,h1,h2,h3,dl,dt,dd{padding:0px;margin:0; list-style:none;border:0;list-style-type: none;}.head{}
+.nav {width:960px;height:32px;padding:0;font-weight:bold;overflow:hidden;}
+.nav ul {height:32px;}
+.nav li{float:left;	height:32px;background:#99F;line-height: 32px;margin-right:2px;text-align:center;}
+.nav ul li.current {background:url(nav.gif) no-repeat right -64px;padding-right: 4px;}
+.nav li span {float:left;padding-left:6px;height:32px;line-height:32px;background:url(nav.gif) right -96px;text-align:left;}
+.nav ul li.current span {background:#FAA;}
+.nav ul li.current span a {color: #fff;}
+.nav ul li span a {padding:0 6px 0 3px;color:#333;text-decoration:none;}
+.nav ul li span a:hover {color:#f60;}
+.head_a{height:90px;overflow:hidden;clear:both;}
+.logo{float:left;height:80px;width:200px;overflow:hidden;text-align:center;padding-top:8px;}
+.head_cont{float:left;width:750px;overflow:hidden;}
+.toplink{float:right;height:20px;padding:0 5px 0 0;line-height:20px;clear:both;}
+</style><div class="toplink">
+          【<a onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hhbmw.com');" href="#">设为首页</a>】【<a onclick="window.external.addFavorite('http://v.hhbmw.com','v.hhbmw.com 怀化便民网电影站');" href="javascript:void(0)">加入收藏</a>】【<a class="red" href="http://v.hhbmw.com/hot.html" target="_blank">上映大片</a>】【<a href="http://v.hhbmw.com/google.xml">GOOGLE地图</a>】【<a href="http://v.hhbmw.com/baidu.xml">百度地图</a>】【<a href="http://v.hhbmw.com/rss.xml">RSS订阅</a>】【<a href="http://v.hhbmw.com/allmovie.html">网站地图</a>】
+        </div>
+<div class="nav">
+    <ul>
+      <li class="current"><span><a href="http://v.hhbmw.com/">首 页</a></span></li>       
+      <li><span><a href="http://v.hhbmw.com/dongzuopian/">动作片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/oumeiju/">欧美剧</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/hanguoju/">韩国剧</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/ribenju/">日本剧</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/taiwanju/">台湾剧</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/xianggangpian/">香港片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/guochanju/">国产剧</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/zongyipian/">综艺片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/donghuapian/">动画片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/juqingpian/">剧情片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/kongbupian/">恐怖片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/kehuanpian/">科幻片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/aiqingpian/">爱情片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/xijupian/">喜剧片</a></span></li>
+      <li><span><a href="http://v.hhbmw.com/yueyupian/">粤语片</a></span></li>
+    </ul>
+  </div>
+|chjia_com|纯HTML广告全HTML代码调用示例。|chjia_com|X|chjia_com|1|www_chjia_com|jsdiaoyong|chjia_com|纯HTML|chjia_com|<script type="text/javascript" src="http://v.hhbmw.com/images/js/960i-1.js"  charset="gb2312"></script>|chjia_com|直接调用JS广告文件示例。|chjia_com|X|chjia_com|1|www_chjia_com|

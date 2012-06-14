@@ -1,0 +1,46 @@
+<?php
+
+return array(
+	/*
+	'sample1'=>array(
+		'ID' => '',
+		'UName' => '',
+		'UPosition' => '',
+		'Tel' => '',
+		'Moblie' => '',
+		'Company' => '',
+		'Business' => '',
+		'USize' => '',
+		'Address' => '',
+		'Website' => '',
+		'Code' => '',
+		'Email' => '',
+		'Advice' => '',
+		'Comp_Intro' => '',
+		'createtime' => '',
+		'sate' => '',
+		'remark' => '',
+		'overtime' => '',
+	),
+	'sample2'=>array(
+		'ID' => '',
+		'UName' => '',
+		'UPosition' => '',
+		'Tel' => '',
+		'Moblie' => '',
+		'Company' => '',
+		'Business' => '',
+		'USize' => '',
+		'Address' => '',
+		'Website' => '',
+		'Code' => '',
+		'Email' => '',
+		'Advice' => '',
+		'Comp_Intro' => '',
+		'createtime' => '',
+		'sate' => '',
+		'remark' => '',
+		'overtime' => '',
+	),
+	*/
+);

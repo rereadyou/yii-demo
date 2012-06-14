@@ -1,0 +1,139 @@
+ 
+* {
+	padding:0px;
+	margin:0px;
+}
+
+ul, li {
+	list-style-type:none;
+}
+img {
+	border:0;
+}
+ul, li {
+	list-style-type:none;
+}
+img {
+	border:0;
+}
+
+.new_LogoSearch .new_Search {
+	width:535px; margin-left:2px;
+	float:left;
+	overflow:hidden;
+}
+.new_LogoSearch .new_Search .TabTitle {
+	clear:both;
+	height:23px;
+	overflow:hidden;
+}
+.new_LogoSearch .new_Search .TabTitle ul {
+	padding:0 0 0 10px;
+}
+.new_LogoSearch .new_Search .TabTitle li {
+	width:52px;
+	float:left;
+	margin:2px 5px 0 0;
+	cursor:pointer;
+*cursor:hand;
+}
+.new_LogoSearch .new_Search .TabTitle .active {
+	background:url(http://img.9ask.cn/index/new_images/bgImg.gif) no-repeat -200px 0px;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:23px;
+}
+.new_LogoSearch .new_Search .TabTitle .normal {
+	background:url(http://img.9ask.cn/index/new_images/bgImg.gif) no-repeat -200px -24px;
+	font-size:14px;
+	color:#034291;
+	font-weight:bold;
+	text-align:center;
+	line-height:23px;
+}
+.new_LogoSearch .new_Search .TabContent {
+	clear:both;
+	height:35px;
+	overflow:hidden;
+	float:left;
+}
+.new_LogoSearch .new_Search .TabContent .L {
+	width:12px;
+	float:left;
+	height:35px; background:url(http://img.9ask.cn/index/new_images/bg.gif) no-repeat 0px -1360px; overflow:hidden;
+}
+.new_LogoSearch .new_Search .TabContent .R {
+	width:5px;
+	float:left;
+	height:35px; background:url(http://img.9ask.cn/index/new_images/bg.gif) no-repeat -5px -1400px; overflow:hidden;
+}
+.new_LogoSearch .new_Search .TabContent .M {
+	width:510px; _width:515px;
+	height:35px;
+	position:relative;
+	float:left;
+	background:url(http://img.9ask.cn/index/new_images/bg.gif) repeat-x 0px -1310px;
+}
+.new_LogoSearch .new_Search .TabContent .M li {
+	float:left;
+	padding:5px 10px 0 0;
+}
+.new_LogoSearch .new_Search .TabContent .M input {
+	border:1px solid #ea8801;
+	line-height:23px;
+	font-size:12px;
+	padding:5px 0 0 3px;
+*padding:0px 0 0 3px;
+	height:18px;
+*height:23px;
+}
+.new_LogoSearch .new_Search .TabContent .M select {
+	border:1px solid #ea8801;
+	height:22px;
+}
+.new_LogoSearch .new_Search .TabContent .M .SearchBtn {
+	width:178px;
+	float:left;
+	text-align:left;
+}
+.new_LogoSearch .new_Search .TabContent .M .SearchBtn_a {
+	width:2055px;
+	float:right;
+	text-align:left;
+}
+.new_LogoSearch .new_Search .TabContent .M .SearchBtn li {
+	float:left;
+	font-size:12px;
+	color:#fff;
+}
+.new_LogoSearch .new_Search .TabContent .M span {
+	font-size:12px;
+	color:#fff;
+	position:absolute;
+	right:0px;
+	top:12px;
+}
+.new_LogoSearch .new_Search .TabContent .M span a, .new_LogoSearch .new_Search .TabContent .M span a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+.new_LogoSearch .new_Search .TabSpace {
+	width:60px;
+	float:right;
+}
+.new_LogoSearch .new_Search .TabSpace ul {
+}
+.new_LogoSearch .new_Search .TabSpace li {
+	font-size:12px;
+	line-height:20px;
+	padding:0 0 0 10px;
+}
+.none {
+	display:none;
+}
+#loadHead{
+margin-top:8px; _margin-top:2px;
+	
+}
