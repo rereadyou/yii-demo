@@ -106,7 +106,8 @@ return array(
 			'enableProfiling'=>true,			//记录sql语句执行时间
 			'enableParamLogging'=>true,			//日志的bind的参数后边跟数的值
 		),
-			
+		
+		//读写分离， 在sharding模块是例子
 		'readDb'=>array(
 			'class' => 'CDbConnection',
 			'connectionString' => $dbConfig2['connectionString'],
@@ -214,9 +215,6 @@ return array(
 		// 		'enableCookieValidation'=>true,	//防止Cookie攻击，同时生成与得到cookie是要用 CHttpCookie
 		),
 			
-			
-		//sharding
-		
 	),
 
 	

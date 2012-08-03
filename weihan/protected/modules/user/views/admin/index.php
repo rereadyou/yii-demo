@@ -35,10 +35,10 @@ $this->breadcrumbs=array(
 			'name' => 'createtime',
 			'value' => 'date("d.m.Y H:i:s",$data->createtime)',
 		),
-		array(
+		/* array(
 			'name' => 'lastvisit',
 			'value' => '(($data->lastvisit)?date("d.m.Y H:i:s",$data->lastvisit):UserModule::t("Not visited"))',
-		),
+		), */
 		array(
 			'name'=>'status',
 			'value'=>'User::itemAlias("UserStatus",$data->status)',
